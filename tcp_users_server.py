@@ -1,8 +1,5 @@
 import socket
 
-# Глобальный список для хранения истории
-messages = []
-
 
 def server():
     server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -12,6 +9,9 @@ def server():
 
     server_socket.listen(10)
     print("Сервер запущен ...")
+
+    # Список для хранения истории сообщений
+    messages: list[str] = []
 
     while True:
         client_socket, client_address = server_socket.accept()
