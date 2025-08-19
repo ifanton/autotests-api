@@ -21,5 +21,5 @@ headers = {
 get_me_response = httpx.get("http://localhost:8000/api/v1/users/me", headers=headers)
 get_me_response_data = get_me_response.json()
 
-print(get_me_response.status_code)
-print(get_me_response_data)
+print('Get me response status code:', get_me_response.status_code)
+print('Get me response data:', get_me_response_data)
