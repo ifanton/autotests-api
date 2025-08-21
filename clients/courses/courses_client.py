@@ -4,6 +4,25 @@ from httpx import Response
 
 from clients.api_client import APIClient
 
+from clients.files.files_client import File
+from clients.users.public_users_client import User
+
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
+
+
+class Course(TypedDict):
+    """
+    Описание структуры курса
+    """
+    id: str
+    title: str
+    maxScore: int
+    minScore: int
+    description: str
+    previewFile: File  # Вложенная структура файла
+    estimatedTime: str
+    createdByUserId: User  # Вложенная структура пользователя
+
 
 class GetCoursesQueryDict(TypedDict):
     """
@@ -23,6 +42,13 @@ class CreateCourseRequestDict(TypedDict):
     estimatedTime: str
     previewFileId: str
     createdByUserId: str
+
+
+class CreateCourseResponseDict(TypedDict):
+    """
+    Описание структуры ответа на создание курса
+    """
+    course: Course
 
 
 class UpdateCourseRequestDict(TypedDict):
@@ -87,3 +113,22 @@ class CoursesClient(APIClient):
         :return: Ответ от сервера в виде объекта httpx.Response
         """
         return self.delete(f"/api/v1/courses/{course_id}")
+
+    def create_course(self, request: CreateCourseRequestDict) -> CreateCourseResponseDict:
+        """
+        Метод, который будет создавать курс и возвращать JSON-структуру
+
+        :param request: Словарь CreateCourseRequestDict
+        :return: JSON-структура созданного курса
+        """
+        response = self.create_course_api(request)
+        return response.json()
+
+# Добавляем builder для CoursesClient
+def get_courses_client(user: AuthenticationUserDict) -> CoursesClient:
+    """
+    Функция создаёт экземпляр CoursesClient с уже настроенным HTTP-клиентом
+
+    :return: Готовый к использованию CoursesClient
+    """
+    return CoursesClient(client=get_private_http_client(user))

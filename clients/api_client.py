@@ -3,6 +3,10 @@ from typing import Any
 from httpx import Client, URL, Response, QueryParams
 from httpx._types import RequestData, RequestFiles
 
+import os
+
+os.environ["NO_PROXY"] = "*"  # отключение прокси
+
 
 class APIClient:
     def __init__(self, client: Client):
