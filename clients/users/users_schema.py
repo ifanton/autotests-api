@@ -41,9 +41,9 @@ class UpdateUserRequestSchema(BaseModel):
     model_config = ConfigDict(populate_by_name=True)
 
     email: EmailStr | None
-    last_name: str = Field(alias="lastName")
-    first_name: str = Field(alias="firstName")
-    middle_name: str = Field(alias="middleName")
+    last_name: str | None = Field(alias="lastName")
+    first_name: str | None = Field(alias="firstName")
+    middle_name: str | None = Field(alias="middleName")
 
 
 class UpdateUserResponseSchema(BaseModel):

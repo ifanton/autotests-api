@@ -1,5 +1,7 @@
-from clients.courses.courses_client import get_courses_client, CreateCourseRequestDict
-from clients.exercises.exercises_client import get_exercises_client, CreateExerciseRequestDict
+from clients.courses.courses_client import get_courses_client
+from clients.courses.courses_schema import CreateCourseRequestSchema
+from clients.exercises.exercises_client import get_exercises_client
+from clients.exercises.exercises_schema import CreateExerciseRequestSchema
 from clients.files.files_client import get_files_client
 from clients.files.files_schema import CreateFileRequestSchema
 from clients.private_http_builder import AuthenticationUserSchema
@@ -41,27 +43,27 @@ create_file_response = files_client.create_file(create_file_request)
 print('Create file data:', create_file_response)
 
 # Создаем курс
-create_course_request = CreateCourseRequestDict(
+create_course_request = CreateCourseRequestSchema(
     title="Python API course",
-    maxScore=941,
-    minScore=0,
+    max_score=941,
+    min_score=0,
     description="Автоматизация тестирования API с Python. Расширенный",
-    estimatedTime="4 weeks",
-    previewFileId=create_file_response.file.id,
-    createdByUserId=create_user_response.user.id
+    estimated_time="4 weeks",
+    preview_file_id=create_file_response.file.id,
+    created_by_user_id=create_user_response.user.id
 )
 create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
 # Создаем задание
-create_exercise_request = CreateExerciseRequestDict(
+create_exercise_request = CreateExerciseRequestSchema(
     title="Практика использования API-клиентов",
-    courseId=create_course_response['course']['id'],
-    maxScore=15,
-    minScore=0,
+    course_id=create_course_response.course.id,
+    max_score=15,
+    min_score=0,
     description="Написать скрипт для создания задания",
-    orderIndex=0,
-    estimatedTime="30 minutes"
+    order_index=0,
+    estimated_time="30 minutes"
 )
 create_exercise_response = exercises_client.create_exercise(create_exercise_request)
 print('Create exercise data:', create_exercise_response)
