@@ -60,10 +60,3 @@ class UpdateCourseRequestSchema(BaseModel):
     min_score: int | None = Field(alias="minScore")
     description: str | None
     estimated_time: str | None = Field(alias="estimatedTime")
-
-
-class UpdateCourseResponseSchema(BaseModel):
-    """
-    Описание структуры ответа на обновление курса
-    """
-    course: CourseSchema
