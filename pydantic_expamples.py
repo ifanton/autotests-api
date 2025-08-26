@@ -2,7 +2,7 @@ import uuid
 
 from pydantic import BaseModel, Field, EmailStr
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 class UserPersonalInfoSchema(BaseModel):  # сначала выделяем вложенные сущности

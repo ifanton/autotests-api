@@ -2,14 +2,14 @@ import httpx
 import os
 
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 os.environ["NO_PROXY"] = "*"  # отключение прокси
 
 # Создаем пользователя
 create_user_payload = {
-  "email": get_random_email(),
+  "email": fake.email(),
   "password": "string",
   "lastName": "string",
   "firstName": "string",
@@ -34,7 +34,7 @@ print('Login data:', login_response_data)
 
 # Обновляем пользователя
 update_user_payload = {
-    "email": get_random_email(),
+    "email": fake.email(),
     "lastName": "updated_string",
     "firstName": "updated_string",
     "middleName": "updated_string"

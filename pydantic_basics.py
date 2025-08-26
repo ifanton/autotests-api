@@ -26,7 +26,7 @@ import uuid
 from pydantic import BaseModel, ConfigDict, Field, EmailStr, HttpUrl, ValidationError
 from pydantic.alias_generators import to_camel
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 # Добавим модель FileSchema

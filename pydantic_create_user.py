@@ -1,7 +1,7 @@
 from pydantic import BaseModel, ConfigDict, EmailStr
 from pydantic.alias_generators import to_camel
 
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 class UserSchema(BaseModel):

@@ -1,12 +1,12 @@
 import httpx
 import os
-from tools.fakers import get_random_email
+from tools.fakers import fake
 
 
 os.environ["NO_PROXY"] = "*"  # отключение прокси
 
 payload = {
-  "email": get_random_email(),
+  "email": fake.email(),
   "password": "string",
   "lastName": "string",
   "firstName": "string",
