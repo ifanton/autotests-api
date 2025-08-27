@@ -5,6 +5,7 @@ from tools.assertions.base import assert_equal
 def assert_create_user_response(request: CreateUserRequestSchema, response: CreateUserResponseSchema):
     """
     Проверяет, что ответ на создание пользователя соответствует запросу
+
     :param request: Исходный запрос на создание пользователя
     :param response: Ответ с данными созданного пользователя
     :raises AssertionError: Если хотя бы одно поле не совпадает

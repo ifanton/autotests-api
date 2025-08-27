@@ -21,19 +21,19 @@ def test_login():
     public_users_client.create_user(create_user_request)
 
     # Формируем тело запроса на аутентификацию
-    authentication_user_request = LoginRequestSchema(
+    login_request = LoginRequestSchema(
         email=create_user_request.email,
         password=create_user_request.password
     )
 
     # Отправляем запрос на аутентификацию
-    login_user_response = authentication_client.login_api(authentication_user_request)
+    login_response = authentication_client.login_api(login_request)
     # Инициализируем модель ответа на основе полученного JSON в ответе
-    login_user_response_data = LoginResponseSchema.model_validate_json(login_user_response.text)
+    login_response_data = LoginResponseSchema.model_validate_json(login_response.text)
 
     # Выполняем проверку статус-кода
-    assert_status_code(login_user_response.status_code, HTTPStatus.OK)
+    assert_status_code(login_response.status_code, HTTPStatus.OK)
     # Выполняем проверку тела ответа
-    assert_login_response(login_user_response_data)
+    assert_login_response(login_response_data)
     # Выполняем валидацию схемы
-    validate_json_schema(login_user_response.json(), login_user_response_data.model_json_schema())
+    validate_json_schema(login_response.json(), login_response_data.model_json_schema())
