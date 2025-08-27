@@ -29,6 +29,6 @@ def test_zero_division():
         1 / 0
 
 
-class TestUserAuthentication:
-    def test_login(self):
+class TestClass:
+    def test_class_function(self):
         assert 1 == 1
