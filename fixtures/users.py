@@ -1,7 +1,7 @@
 import pytest
 from pydantic import BaseModel, EmailStr
 
-from clients.authentication.authentication_client import get_authentication_client, AuthenticationClient
+from clients.authentication.authentication_client import AuthenticationClient
 from clients.private_http_builder import AuthenticationUserSchema
 from clients.users.private_users_client import get_private_users_client, PrivateUserClient
 from clients.users.public_users_client import get_public_users_client, PublicUsersClient
@@ -23,15 +23,7 @@ class UserFixture(BaseModel):
 
     @property
     def authentication_user(self) -> AuthenticationUserSchema:
-        email = UserFixture.email
-        password = UserFixture.password
-        return AuthenticationUserSchema(email=email, password=password)
-
-
-@pytest.fixture()  # По умолчанию scope="function" - новый клиент будет создаваться перед каждым тестом
-def authentication_client() -> AuthenticationClient:  # Аннотируем возвращаемое значение
-    # Создаем новый API клиент для работы с аутентификацией
-    return get_authentication_client()
+        return AuthenticationUserSchema(email=self.email, password=self.password)
 
 
 @pytest.fixture()
@@ -41,12 +33,9 @@ def public_users_client() -> PublicUsersClient:
 
 
 @pytest.fixture()
-def private_users_client(
-        authentication_client: AuthenticationClient,
-        function_user: UserFixture.authentication_user
-) -> PrivateUserClient:
+def private_users_client(function_user: UserFixture) -> PrivateUserClient:
     # Создаем новый API клиент для работы с приватным API пользователей
-    return get_private_users_client(user=function_user)
+    return get_private_users_client(function_user.authentication_user)
 
 
 @pytest.fixture()

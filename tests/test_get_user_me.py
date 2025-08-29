@@ -4,7 +4,7 @@ from http import HTTPStatus
 from clients.users.private_users_client import PrivateUserClient
 from clients.users.users_schema import GetUserResponseSchema
 
-from tests.conftest import UserFixture
+from fixtures.users import UserFixture
 
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.base import assert_status_code
