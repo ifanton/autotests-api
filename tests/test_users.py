@@ -7,13 +7,27 @@ from clients.users.users_schema import CreateUserRequestSchema, CreateUserRespon
 from tools.assertions.schema import validate_json_schema
 from tools.assertions.base import assert_status_code
 from tools.assertions.users import assert_create_user_response
+from tools.fakers import fake
 
 
 @pytest.mark.users
 @pytest.mark.regression
-def test_create_user(public_users_client: PublicUsersClient):  # Используем фикстуру API клиента
-    # Формируем тело запроса на создание пользователя используя Pydantic-схему
-    request = CreateUserRequestSchema()
+@pytest.mark.parametrize(
+    "email",
+    [
+        fake.email(domain="mail.ru"),
+        fake.email(domain="gmail.com"),
+        fake.email(domain="example.com")
+    ],
+    ids=[
+        "Email domain mail.ru",
+        "Email domain gmail.com",
+        "Email domain example.com"
+    ]
+)
+def test_create_user(email: str, public_users_client: PublicUsersClient):  # Используем фикстуру API клиента
+    # Формируем тело запроса на создание пользователя используя Pydantic-схему, подставляется параметризованный email
+    request = CreateUserRequestSchema(email=email)
     # Отправляем запрос на создание пользователя
     response = public_users_client.create_user_api(request)
     # Инициализируем модель ответа на основе полученного JSON в ответе
