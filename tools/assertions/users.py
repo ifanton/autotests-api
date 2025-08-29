@@ -5,9 +5,9 @@ from tools.assertions.base import assert_equal
 
 def assert_user(actual: UserSchema, expected: UserSchema):
     """
-    Проверяет корректность данных пользователя
+    Проверяет, что фактические данные пользователя соответствуют ожидаемым
 
-    :param actual: Полученные данные пользователя
+    :param actual: Фактические данные пользователя
     :param expected: Ожидаемые данные пользователя
     :raises AssertionError: Если хотя бы одно поле не совпадает
     """
@@ -22,6 +22,13 @@ def assert_get_user_response(
         get_user_response: GetUserResponseSchema,
         create_user_response: CreateUserResponseSchema
 ):
+    """
+    Проверяет, что ответ на получение пользователя соответствует ответу на его создание
+
+    :param get_user_response: Ответ API при запросе данных пользователя
+    :param create_user_response: Ответ API при создании пользователя
+    :raises AssertionError: Если данные пользователя не совпадают
+    """
     assert_user(actual=get_user_response.user, expected=create_user_response.user)
 
 
