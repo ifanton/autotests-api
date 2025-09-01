@@ -115,7 +115,3 @@ class Fake:
 
 # Создаем экземпляр класса Fake с использованием Faker
 fake = Fake(faker=Faker())
-
-print(fake.email(domain="mail.ru"))
-print(fake.email(domain="gmail.com"))
-print(fake.email(domain="example.com"))
