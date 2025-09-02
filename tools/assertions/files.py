@@ -109,7 +109,7 @@ def assert_create_file_with_empty_directory_response(actual: ValidationErrorResp
 
 def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorResponseSchema):
     """
-    Проверяет, что ответ на запрос файла с некорректным id соответствует ожидаемой валидационной ошибке
+    Проверяет, что ответ API на запрос файла с некорректным file_id соответствует ожидаемой валидационной ошибке
 
     :param actual: Ответ от API с ошибкой валидации, который необходимо проверить
     :raises AssertionError: Если фактический ответ не соответствует ожидаемому
