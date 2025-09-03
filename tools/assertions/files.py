@@ -129,6 +129,12 @@ def assert_get_file_with_incorrect_file_id_response(actual: ValidationErrorRespo
 
 
 def assert_file_not_found_response(actual: InternalErrorResponseSchema):
+    """
+    Проверяет, что API возвращает корректную ошибку, если файл не найден
+
+    :param actual: Ответ от API с текстом ошибки
+    :raises AssertionError: Если фактический ответ не соответствует ожидаемому
+    """
     # Ожидаемое сообщение об ошибке, если файл не найден
     expected = InternalErrorResponseSchema(details="File not found")
     # Используем функцию для проверки внутренней ошибки
