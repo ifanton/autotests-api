@@ -29,7 +29,7 @@ from tools.assertions.schema import validate_json_schema
 @allure.epic(AllureEpic.LMS)
 @allure.parent_suite(AllureEpic.LMS)
 @allure.feature(AllureFeature.COURSES)
-@allure.sub_suite(AllureFeature.COURSES)
+@allure.suite(AllureFeature.COURSES)
 class TestCourses:
     @allure.tag(AllureTags.CREATE_ENTITY)
     @allure.story(AllureStory.CREATE_ENTITY)
