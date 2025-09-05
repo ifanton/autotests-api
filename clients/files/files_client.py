@@ -34,7 +34,7 @@ class FilesClient(APIClient):
         return self.post(
             "/api/v1/files",
             data=request.model_dump(by_alias=True, exclude={'upload_file'}),  # исключаем upload_file, так как оно передается отдельно (след строка)
-            files={"upload_file": open(request.upload_file, 'rb')}  # файл загружается как отдельный параметр, а не через form data
+            files={"upload_file": request.upload_file.read_bytes()}  # файл загружается как отдельный параметр, а не через form data
         )
 
     @allure.step("Delete file by id {file_id}")
