@@ -60,8 +60,8 @@ jobs:
         uses: simple-elf/allure-report-action@v1.13 # готовое решение из GitHub Marketplace для генерации Allure отчёта
         if: always()
         with:
-          allure-results: allure-results  # каталог с результатами тестов
-          allure-history: allure-history  # каталог с результатами тестов
+          allure_results: allure-results  # каталог с результатами тестов
+          allure_history: allure-history  # каталог с результатами тестов
 
       - name: Deploy report to Github Pages
         if: always()
