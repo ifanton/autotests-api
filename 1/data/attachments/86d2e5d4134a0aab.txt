@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEyOjU2OjQ2Ljk2MzU3NSIsInVzZXJfaWQiOiIzMWZjOGU0Ni00MzhhLTRjYTEtYmJmMi0xOTcxYTMwZjg1NjgifQ.Rxf4G8y1ji5YoVpx_GmF27DFDmFntfzIsBhTaXAB7XI' \
+  -H 'content-length: 329' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Democrat simply experience most project.","maxScore":92,"minScore":21,"description":"Center leader fall medical score down. Eight protect discover at everyone wait law southern.","estimatedTime":"9 week(s)","previewFileId":"ab84041a-5ce9-4baf-b1c9-3e34a49efd36","createdByUserId":"31fc8e46-438a-4ca1-bbf2-1971a30f8568"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/337243e1-7731-45b3-8ffe-bb8f6d7bdcf4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEyOjU2OjQ2LjM2NTQ4NCIsInVzZXJfaWQiOiI2MjBjNDE1My1kYjJiLTRmZWYtOGNiYi00MWZlMWU2M2VmOTMifQ.rBJZzPUNGlvGy-OVKJ2lMLiET7x8FuLiK8TCfYI9P28' \
+  -H 'content-length: 203' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive cell letter buy wife item.","maxScore":68,"minScore":17,"description":"Decision happen eye hand ten service doctor. Develop expert where be sometimes find.","estimatedTime":"4 week(s)"}'

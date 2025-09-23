@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEyOjU2OjUwLjYyNjM4NSIsInVzZXJfaWQiOiJhZDZiZTEwNi1hZjM2LTRhZWUtODhmMS1kZWQyNjRkYTc0M2MifQ.AeNqOAEDQSHgdnLxVx8tXRJPHgiqm8dX_VZXeHH6K_A' \
+  -H 'content-length: 369' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tough street structure prevent fast ahead book.","courseId":"f54cfd2a-0850-4647-b296-c70f72f8a498","maxScore":92,"minScore":26,"orderIndex":19,"description":"Believe many amount market tell. Such pay stage out wall bad.\nSuccess Democrat charge begin first weight us.\nTelevision spring street carry final a. Trade art side rich.","estimatedTime":"4 week(s)"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEyOjU2OjQ4LjE5MTYyMiIsInVzZXJfaWQiOiI4ZTZmMWU3OS1kZjMxLTQ1NTQtOTMyMy04ODgxMDQzNzVlN2EifQ.F3KCF6dhKlrLcNsnQn5JFv-Arh-RosO9pjTqclU6Bk8' \
+  -H 'content-length: 413' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan hand simply we star program.","maxScore":67,"minScore":30,"description":"Daughter reason left report understand second store happen. Fill enter wonder star particular.\nAmount follow former indicate at name life. Parent opportunity image a stay management.","estimatedTime":"7 week(s)","previewFileId":"6b02e749-683d-41d0-8ac6-e056ead857c3","createdByUserId":"8e6f1e79-df31-4554-9323-888104375e7a"}'

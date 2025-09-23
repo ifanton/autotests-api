@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEyOjU2OjQ5LjM3MDI2NyIsInVzZXJfaWQiOiI0NmFjYmQ3NS0wMjA1LTRjMzktYmU1My0wNDZkN2Q2YzVjYTgifQ.5wEMftSnD6kZrpfj4kOejjZjz37-HJa6shRqfxPuYbM' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mother of produce yeah red.","maxScore":60,"minScore":13,"description":"Believe similar on camera through doctor information population. Throw town consumer nation. Design son enjoy must.\nSupport TV arrive. Idea long while religious. Leader free at safe.","estimatedTime":"1 week(s)","previewFileId":"49ba58f5-d7c7-4ba2-b7a6-aa38a45af0be","createdByUserId":"46acbd75-0205-4c39-be53-046d7d6c5ca8"}'

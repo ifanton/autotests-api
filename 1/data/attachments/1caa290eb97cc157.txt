@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEyOjU2OjUwLjYyNjM4NSIsInVzZXJfaWQiOiJhZDZiZTEwNi1hZjM2LTRhZWUtODhmMS1kZWQyNjRkYTc0M2MifQ.AeNqOAEDQSHgdnLxVx8tXRJPHgiqm8dX_VZXeHH6K_A' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Together scene year add evidence cover.","maxScore":61,"minScore":10,"description":"Find cell produce hot can president. View possible choose anyone.\nStation debate commercial upon pattern. People finish as magazine. Discuss most usually rate.","estimatedTime":"5 week(s)","previewFileId":"0f62fd4f-12d8-423f-a4f8-b35d6a549595","createdByUserId":"ad6be106-af36-4aee-88f1-ded264da743c"}'

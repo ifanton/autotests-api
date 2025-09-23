@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEyOjU2OjQ4Ljc3NDQ0NyIsInVzZXJfaWQiOiIwNGE4OTgwYS0yZjY5LTRlMjctYThhNi1jMWRhYzAwNDcxYzIifQ.zJYN4piXUcO2G1uS3yiE9i06alj2ubgv83NLb_0zaWw' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wall maintain five evidence bring kind employee.","maxScore":85,"minScore":9,"description":"Collection social nothing knowledge left let. Seem top he something but.\nKeep order call citizen cultural detail. Daughter until stuff attack bill bag white. Young forget agent executive.","estimatedTime":"10 week(s)","previewFileId":"dc5d05be-4f96-4a48-b7d0-4dda1ae66d48","createdByUserId":"04a8980a-2f69-4e27-a8a6-c1dac00471c2"}'
