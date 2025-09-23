@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEzOjA0OjAxLjA0MDcyNCIsInVzZXJfaWQiOiJjMzNmM2UxNy0wNjYwLTQyYjktYWVkYS0zOTdmMGFhM2UyMzQifQ.BL7oCS4O2S2G5NiHbmCAmYKtQXccvjhEJr4Ic9p3Nxc' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Produce find owner role.","maxScore":59,"minScore":27,"description":"Option scientist spring child point. Politics everybody billion law care.","estimatedTime":"9 week(s)","previewFileId":"7d330cef-30d3-4b04-b183-53c6d41f67a4","createdByUserId":"c33f3e17-0660-42b9-aeda-397f0aa3e234"}'

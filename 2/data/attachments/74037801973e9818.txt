@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEzOjA0OjA0LjA0OTM5OSIsInVzZXJfaWQiOiJhMDBiNDFhNy03OTlhLTRkODgtYmNmMC0zOWMxMDE3ZTY3YWYifQ.IGoESHbEZne0RdqdVRFEU9MkkRZXbqj1KBAbYntQ-FA' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"And traditional sense project support.","maxScore":62,"minScore":16,"description":"Purpose thousand easy his nearly. Back early table. Hospital business spring save his market.","estimatedTime":"5 week(s)","previewFileId":"72a9963b-a932-4cbd-b948-ac1811d4dfd6","createdByUserId":"a00b41a7-799a-4d88-bcf0-39c1017e67af"}'

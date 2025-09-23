@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEzOjA0OjAxLjk0MjUxNSIsInVzZXJfaWQiOiI4ZGVhYTA3OC0yMjE1LTQ0M2ItOTQ4ZC00MjA0MmFlNWQzZmIifQ.vw5Kn3LesFLmD4_4a2TgxU_3tYjGAI9g_nBs2JDvMCY' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Off item position.","maxScore":75,"minScore":25,"description":"Color manager seven black turn major class. Stop prove organization police. Read south leave here head stay as.\nBuilding religious which act policy store Congress. Author paper improve market.","estimatedTime":"2 week(s)","previewFileId":"8ed4c8d6-1cc3-4097-bab9-2008576311c6","createdByUserId":"8deaa078-2215-443b-948d-42042ae5d3fb"}'

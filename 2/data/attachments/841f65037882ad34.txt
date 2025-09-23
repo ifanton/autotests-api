@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEzOjA0OjAzLjQ2NTU1MCIsInVzZXJfaWQiOiI4NTA5ZjgwNS0zMWEwLTQzOTQtODBkNy0yMmU5NGNmZTk4ZTgifQ.Mf8MYCJcmq8I2C7iWOTqCZaznJ3qTyLKedsvES34qdE' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"War though take voice dog wonder spring.","maxScore":71,"minScore":8,"description":"Cover imagine fire pretty bad.\nInvolve cut kid. Theory about that his every power. Next everything coach fight opportunity newspaper.","estimatedTime":"7 week(s)","previewFileId":"1dfa868d-233a-4ae1-ac69-a107e43a0838","createdByUserId":"8509f805-31a0-4394-80d7-22e94cfe98e8"}'

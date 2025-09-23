@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0e5c93b2-ef6f-425b-a47f-1799978268d2' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEzOjA0OjAyLjIxNTUxOCIsInVzZXJfaWQiOiJmZTAzZDU5Zi0yNDI1LTRkODktYjQ5YS1kM2FlNTk4ODZiMDgifQ.BH5fIPTMTLz1fmYTC6fE0Lheh2On6cJhltK-ao4EMRo' \
+  -H 'content-length: 237' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sister model fast range enjoy.","maxScore":94,"minScore":6,"orderIndex":48,"description":"Order baby size officer herself herself. Response low citizen. Hospital blood fear name world war suddenly.","estimatedTime":"7 week(s)"}'

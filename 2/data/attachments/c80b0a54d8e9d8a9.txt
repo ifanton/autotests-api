@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEzOjA0OjAyLjg3MzgxMyIsInVzZXJfaWQiOiIwZDUwMTQzMS1kZGUxLTQ5YmItOWUyMi0yMzY3NDRhNzkzOGYifQ.T44K8izaCC4HzS08XRZr93sMY780wCA9HqcqF3-Pd3Q' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Easy real social.","maxScore":66,"minScore":20,"description":"Whom outside thousand standard evidence night.\nTable remain debate during about available bit body. Crime field recognize identify memory can choice. Finish major finish other source.","estimatedTime":"7 week(s)","previewFileId":"69677d93-7600-47df-8bbd-d9a8fb06a3a9","createdByUserId":"0d501431-dde1-49bb-9e22-236744a7938f"}'

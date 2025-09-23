@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDEzOjA0OjAyLjIxNTUxOCIsInVzZXJfaWQiOiJmZTAzZDU5Zi0yNDI1LTRkODktYjQ5YS1kM2FlNTk4ODZiMDgifQ.BH5fIPTMTLz1fmYTC6fE0Lheh2On6cJhltK-ao4EMRo' \
+  -H 'content-length: 390' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Field religious first into thank.","maxScore":56,"minScore":1,"description":"Pattern black character effect wear although skin. Glass increase staff agent store rest question. Explain past notice face not include. Wish thank woman option.","estimatedTime":"3 week(s)","previewFileId":"02fd5faf-275a-4326-8645-180c90050e7b","createdByUserId":"fe03d59f-2425-4d89-b49a-d3ae59886b08"}'
