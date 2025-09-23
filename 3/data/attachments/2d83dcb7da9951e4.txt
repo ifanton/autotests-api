@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDE1OjMwOjM0Ljc5ODcxMiIsInVzZXJfaWQiOiJkYzA5MTgyNS1lYzAyLTRiMDctOTRjZi00YTRhYjZiZWMyOTEifQ.383J8I1oOFAkVWywfNxQ0Q5fPUpeDoO0_xfR8hmTqy0' \
+  -H 'content-length: 389' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Truth listen natural center task discuss.","courseId":"30c44964-1155-443e-aeec-da9813000dac","maxScore":80,"minScore":22,"orderIndex":67,"description":"Simply include every hear rate. All throw others act.\nMoment front recently defense wind however example some. Cover say talk performance.\nSister value think bed. Find city draw suddenly perform.","estimatedTime":"2 week(s)"}'

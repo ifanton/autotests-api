@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDE1OjMwOjM3LjE2ODk2MSIsInVzZXJfaWQiOiI2MzQzODljZi0xMDgzLTRjZGUtYjI3Yi02NDFlYmI4ZDM4OGYifQ.EP32x7MtmzqIg_lUmBXi-6zoMvURDGk5o5Du-G-Qk1Q' \
+  -H 'content-length: 333' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Send mother lead.","maxScore":77,"minScore":10,"description":"Kitchen left but not drug them down newspaper. Large garden decade former number talk million. Industry best order put.","estimatedTime":"8 week(s)","previewFileId":"d5e8bf5e-f5d7-4d97-9d2d-634a17090566","createdByUserId":"634389cf-1083-4cde-b27b-641ebb8d388f"}'

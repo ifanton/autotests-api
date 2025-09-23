@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDE1OjMwOjMzLjg5NDgwNSIsInVzZXJfaWQiOiIzYmRkZjg2Ny01MTU2LTQ2N2YtYTY0Yi00YmIwMDhmOTE4MzIifQ.ZICfqwnjpMe2VHB33MT5elNHABS8Qnc_XNe27c0j8nE' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"North beyond debate thank main.","maxScore":69,"minScore":30,"description":"Now defense field of forward. Or defense tough form. Ready during news benefit wall wife.\nDecision relationship home organization cold single. Already wear apply certainly case training drop.","estimatedTime":"5 week(s)","previewFileId":"9c1d53a7-0918-402d-9d8b-8662d24b1efe","createdByUserId":"3bddf867-5156-467f-a64b-4bb008f91832"}'

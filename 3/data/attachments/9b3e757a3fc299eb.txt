@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDE1OjMwOjMyLjQ4MjAyMCIsInVzZXJfaWQiOiI1NDFkYzVkNi0zOGJiLTRiMTktOTNjZS1kNjAxNjU2ZGQyMDIifQ.1y8cEGVTuZJwS_KCdmixDVrlPYP345BM4WzTM3VoCLA' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Push level his represent at day day.","maxScore":55,"minScore":13,"description":"Half alone population often we. Environmental order always rock wear page project. Conference entire staff notice serious data.","estimatedTime":"3 week(s)","previewFileId":"eb838b45-849f-4864-8b3a-e2a19cc51405","createdByUserId":"541dc5d6-38bb-4b19-93ce-d601656dd202"}'

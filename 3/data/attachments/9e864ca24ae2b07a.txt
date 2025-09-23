@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d1fe728c-9c29-4fdd-92a2-4d55427ed752' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDE1OjMwOjMyLjQ4MjAyMCIsInVzZXJfaWQiOiI1NDFkYzVkNi0zOGJiLTRiMTktOTNjZS1kNjAxNjU2ZGQyMDIifQ.1y8cEGVTuZJwS_KCdmixDVrlPYP345BM4WzTM3VoCLA' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide edge garden grow.","maxScore":99,"minScore":29,"description":"Hit north reflect decide. State response up western increase cost knowledge. Including suggest start idea heavy study road someone.\nThought record herself well all. One forget air itself.","estimatedTime":"4 week(s)"}'

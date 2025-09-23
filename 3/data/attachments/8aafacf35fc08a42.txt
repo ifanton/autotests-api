@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/b18515f2-bda7-4860-b636-6472a64da234
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/b18515f2-bda7-4860-b636-6472a64da234
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:71 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:49 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Risk job professor start want.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 71415454-28bc-4c7f-bff7-4ba9ca6ce2ab
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 67
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 22
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 34
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Face not herself office. Standard left better. That responsibility surface do dog.
+Too team side keep thing nation bill investment. Cup sometimes another task for.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 4 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

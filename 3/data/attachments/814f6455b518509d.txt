@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/381334d2-5e21-4e70-ad63-26dbd9d49fd3' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDE1OjMwOjM1LjA3MjczNCIsInVzZXJfaWQiOiI4ZDFiYmI3ZC02MTJjLTRmNzMtYjFiMC01MTQ4ZGUyYTZhZTcifQ.gk4BpD2DRYR2DFxBDkQit2yUwjm4z14QNYIIU2aUIzU' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Small best mouth within thing a oil certainly.","maxScore":50,"minScore":23,"orderIndex":94,"description":"Safe since these record. Establish season claim only pretty hot sign. Political boy lawyer task.\nTurn as because few young machine. Newspaper term or fish.\nNorth near really like main body.","estimatedTime":"5 week(s)"}'

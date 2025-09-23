@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:26 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Them food yourself.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 83
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Entire process challenge. Language character huge age. Budget computer growth condition. Name help station least affect teach wind.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 week(s)
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 8f0a83b7-64e3-478a-880a-e154677155c9
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to c30691fe-a861-4d6a-a4de-16b48fb783bc
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

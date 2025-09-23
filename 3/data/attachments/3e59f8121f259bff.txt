@@ -1,0 +1,16 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/files/ad1173da-dcd2-46e4-b93c-475515cd2249
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files/ad1173da-dcd2-46e4-b93c-475515cd2249
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     FILES_ASSERTIONS:files.py:77 Check get file response
+INFO     FILES_ASSERTIONS:files.py:58 Check file
+INFO     BASE_ASSERTIONS:base.py:37 Check that "id" equals to ad1173da-dcd2-46e4-b93c-475515cd2249
+INFO     BASE_ASSERTIONS:base.py:37 Check that "url" equals to http://localhost:8000/static/tests/f7f0e5f2-6ae9-4c0b-920f-5758e80d053d.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "filename" equals to f7f0e5f2-6ae9-4c0b-920f-5758e80d053d.png
+INFO     BASE_ASSERTIONS:base.py:37 Check that "directory" equals to tests
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

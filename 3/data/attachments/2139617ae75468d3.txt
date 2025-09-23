@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTIzVDE1OjMwOjM0Ljc5ODcxMiIsInVzZXJfaWQiOiJkYzA5MTgyNS1lYzAyLTRiMDctOTRjZi00YTRhYjZiZWMyOTEifQ.383J8I1oOFAkVWywfNxQ0Q5fPUpeDoO0_xfR8hmTqy0' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But amount get least mention off word.","maxScore":88,"minScore":4,"description":"Strategy each after American. Recent team recognize return how high sport. Crime computer game parent agency.\nBeautiful response sort position again series step. Business us husband use prove.","estimatedTime":"9 week(s)","previewFileId":"7792068c-2d5b-4c07-8bf2-793254da8946","createdByUserId":"dc091825-ec02-4b07-94cf-4a4ab6bec291"}'
