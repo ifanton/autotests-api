@@ -10,7 +10,7 @@ logger = get_logger("AUTHENTICATION_ASSERTIONS")
 @allure.step("Check login response")
 def assert_login_response(response: LoginResponseSchema):
     """
-    Проверяет корректность ответа при спешной авторизации
+    Проверяет корректность ответа при успешной авторизации
 
     :param response: Объект ответа с токенами авторизации
     :raises AssertionError: Если какое-либо из условий не выполняется
