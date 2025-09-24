@@ -46,7 +46,7 @@ class TestAuthentication:
         response_data = LoginResponseSchema.model_validate_json(response.text)
 
         # Выполняем проверку статус-кода
-        assert_status_code(response.status_code, HTTPStatus.OK)  # тест
+        assert_status_code(response.status_code, HTTPStatus.OK)  # тест 2
         # Выполняем проверку тела ответа
         assert_login_response(response_data)
         # Выполняем валидацию схемы
