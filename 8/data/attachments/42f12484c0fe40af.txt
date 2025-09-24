@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjA1OjIzLjk5MTE4NSIsInVzZXJfaWQiOiIxMjEwODBkNy1jOTI5LTQ1N2YtYjY3MC02OWZmOGI4NGVjYjQifQ.3JBxjrj96swwTNz3x9wf2CcVu46jzvHQ2iZ3fyKbehw' \
+  -H 'content-length: 287' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Seem interview than cultural authority.","courseId":"a3de0d71-c62e-448b-a414-e6342c18afe9","maxScore":78,"minScore":19,"orderIndex":38,"description":"Several system start property send he. Certainly develop our picture. Soldier question reduce us.","estimatedTime":"2 week(s)"}'

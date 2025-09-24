@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjA1OjI1LjM3NjM3NCIsInVzZXJfaWQiOiJmNWRiYWZmNy03N2E2LTQ5ZmMtYjkzMy0xYmYyYTJhYjIzYjcifQ.lJIoJke5NXIMHCrTnZi3HoJ8W8ljOoOFzlLtXZor6mA' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Much close foreign successful smile owner.","maxScore":92,"minScore":14,"description":"Nature force machine. Control work method reach much all. Next information price of despite.\nLead color music once chair sell win. Produce spring only.","estimatedTime":"7 week(s)","previewFileId":"43536baa-f1bb-4aea-b92c-59dcd4366d36","createdByUserId":"f5dbaff7-77a6-49fc-b933-1bf2a2ab23b7"}'

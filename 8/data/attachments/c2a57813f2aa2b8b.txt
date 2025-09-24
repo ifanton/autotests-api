@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/d35ea6bb-71cb-4cef-be27-d08f99a19f9e
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/d35ea6bb-71cb-4cef-be27-d08f99a19f9e
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:71 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:49 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Seem interview than cultural authority.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to a3de0d71-c62e-448b-a414-e6342c18afe9
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 78
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 19
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 38
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Several system start property send he. Certainly develop our picture. Soldier question reduce us.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 2 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

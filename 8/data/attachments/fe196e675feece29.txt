@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjA1OjIxLjI3NjI4MyIsInVzZXJfaWQiOiJiYjNmZmY5Ny0zMzIwLTQzYTEtOGM2YS1mYWQ5N2Y2YzM4NzYifQ.d0XJRa5cX2viBMA33biDxNjaTVMlOFi4T6x2IA_xa2w' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Physical leg well use movie especially.","maxScore":66,"minScore":10,"description":"Design prevent concern Democrat about make blood security. City doctor my time. Brother your could final business as. Stuff trip watch sound.","estimatedTime":"5 week(s)","previewFileId":"d4c5b50e-e9b6-4b5c-a92c-93a825efe42c","createdByUserId":"bb3fff97-3320-43a1-8c6a-fad97f6c3876"}'

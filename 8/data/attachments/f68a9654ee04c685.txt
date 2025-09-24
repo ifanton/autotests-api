@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjA1OjI2LjA1OTgxMiIsInVzZXJfaWQiOiIwODI2ZjRkZS00OTIxLTQzMDctOTUwOS00YTI5YWM1YjkzYjAifQ.ydQJ91166aZsiQMDJLc-35yQnO1G6UT3jWtnfLcF-F0' \
+  -H 'content-length: 432' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movie similar far list arrive interesting however.","maxScore":50,"minScore":11,"description":"Star identify peace expect defense listen. Short important tree develop over politics. Pretty mother sense foreign.\nBed light everything subject through. Three man situation size note.","estimatedTime":"7 week(s)","previewFileId":"2393e36c-0458-4ecb-bb5c-17f8e6558917","createdByUserId":"0826f4de-4921-4307-9509-4a29ac5b93b0"}'

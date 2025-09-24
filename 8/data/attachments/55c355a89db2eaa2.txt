@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjA1OjIzLjk5MTE4NSIsInVzZXJfaWQiOiIxMjEwODBkNy1jOTI5LTQ1N2YtYjY3MC02OWZmOGI4NGVjYjQifQ.3JBxjrj96swwTNz3x9wf2CcVu46jzvHQ2iZ3fyKbehw' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Keep interview share message decide.","maxScore":77,"minScore":10,"description":"Now even quality opportunity. Suffer message land.\nTelevision possible agree pass bar. Industry series agent success way. Use sometimes where kind.","estimatedTime":"3 week(s)","previewFileId":"94546630-d26c-4e52-a8cf-04fb24bf5375","createdByUserId":"121080d7-c929-457f-b670-69ff8b84ecb4"}'
