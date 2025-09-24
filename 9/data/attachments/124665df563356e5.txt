@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjA5Ljg1Nzk5MSIsInVzZXJfaWQiOiJlNjNiZmVjYS0yNzhjLTQxN2YtODkwMS0zYmM0ZTA4NzEyZWYifQ.02csE7lvUsmryIkdt7cy8LxgMuie4uqwar_4jkOntfs' \
+  -H 'content-length: 398' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rule phone art dog.","maxScore":100,"minScore":3,"description":"Simple instead executive help follow. College research sure actually word of respond range. Or reveal a yard best.\nHistory scene hand any movement trip country. Town generation old.","estimatedTime":"3 week(s)","previewFileId":"db983608-6a42-423b-bd43-1803268bdc4e","createdByUserId":"e63bfeca-278c-417f-8901-3bc4e08712ef"}'

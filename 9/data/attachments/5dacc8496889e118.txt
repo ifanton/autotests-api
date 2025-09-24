@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/f5d5c2e8-0648-46c4-bbf9-46a88f57e823' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjEwLjUzOTcxNSIsInVzZXJfaWQiOiJkNWNiYzNlZS1lMDdlLTQyZjgtYWYyOC00ZDdiMjQ0NDY3MDkifQ.-UeAIpBPjmQo6wXlwBbZd9knAbdxYN9kYHNyfFgYdr8' \
+  -H 'content-length: 272' \
+  -H 'content-type: application/json' \
+  -d '{"title":"International always choose scene that.","maxScore":89,"minScore":2,"orderIndex":1,"description":"Positive treatment create think.\nFine health leave. Evidence right thing worker get computer. Around choose paper agency goal should.","estimatedTime":"5 week(s)"}'

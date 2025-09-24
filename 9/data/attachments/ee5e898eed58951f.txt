@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjA3LjgzOTM1NSIsInVzZXJfaWQiOiJmZTk2NjU2NC0wNmNlLTQ0OTItYTFlZS02NzI5MTk0NDkyYjcifQ.K4Xbrl64_mYx4bx9beCnvA-32dCVKLlRxVx-YLn997U' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Prevent certain American meet job cover.","maxScore":68,"minScore":24,"description":"Heart add partner fear whether listen. Visit account describe high along act movie. Agreement lead answer feel floor another.","estimatedTime":"1 week(s)","previewFileId":"b6704468-04d5-4453-aff4-d987bd2682ed","createdByUserId":"fe966564-06ce-4492-a1ee-6729194492b7"}'

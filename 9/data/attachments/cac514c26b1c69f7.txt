@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjA5LjE5MjIwNyIsInVzZXJfaWQiOiIzNGM4OTI3MS1hZjUyLTQ2ZDUtYWJjMS0wZTVjYjIyNDA2NWMifQ.5n7L6fFbWWWDzyG-Oas0LslsqjI99U6wg9BhN3uC6Bs' \
+  -H 'content-length: 319' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rise radio voice ten power fill picture.","courseId":"effad2ab-254a-4b3a-bdbe-96a3cbea2ebc","maxScore":61,"minScore":3,"orderIndex":80,"description":"Executive mother wall blue industry information item.\nPurpose end artist voice recent style.\nBecome artist explain white hand.","estimatedTime":"10 week(s)"}'

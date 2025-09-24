@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjA4LjUxMjU2NyIsInVzZXJfaWQiOiJhODkyMTYwMS03OTQ2LTRiYmItYjI4YS0xMmQ2MDhkYTUzMzAifQ.F-AG6aMI8ChU7QSqnDsgmM483cmHKW1f1Sp9HGiD6VM' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Spend mind less visit decide window.","maxScore":72,"minScore":7,"description":"Fast matter least local identify artist. Participant two speech thing. Must too responsibility.\nManager season medical central act mother quickly practice. Majority project sort girl.","estimatedTime":"1 week(s)","previewFileId":"5e54dbb4-f753-4a1a-a2ca-d9b8a29d2401","createdByUserId":"a8921601-7946-4bbb-b28a-12d608da5330"}'

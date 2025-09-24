@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjA3LjE3MTg3OCIsInVzZXJfaWQiOiJkMDliNGI2OC03ZTQwLTQwOTYtYTI0NS02MjY2MWQ5MzYwY2UifQ.-cPSXm9sJkPGrJzmi-P9xeXnrGVroRA_Ns2XWz34tS8' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beyond model include.","maxScore":53,"minScore":7,"description":"Party support find range in thousand instead. Choose but should know religious. Base finish society animal say. Mother major address suffer difference.","estimatedTime":"8 week(s)","previewFileId":"0d5f69f9-18bd-4692-b706-05b4ce3c671b","createdByUserId":"d09b4b68-7e40-4096-a245-62661d9360ce"}'

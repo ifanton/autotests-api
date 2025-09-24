@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjEwLjUzOTcxNSIsInVzZXJfaWQiOiJkNWNiYzNlZS1lMDdlLTQyZjgtYWYyOC00ZDdiMjQ0NDY3MDkifQ.-UeAIpBPjmQo6wXlwBbZd9knAbdxYN9kYHNyfFgYdr8' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Service father south ok response dinner she economy.","maxScore":80,"minScore":24,"description":"Cultural food for development once fire maybe. Race other she particularly recent late skill.","estimatedTime":"4 week(s)","previewFileId":"8f7073f8-9974-4459-9230-9800e6071fe2","createdByUserId":"d5cbc3ee-e07e-42f8-af28-4d7b24446709"}'

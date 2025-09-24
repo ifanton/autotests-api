@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjExLjIyNzgxNiIsInVzZXJfaWQiOiJlOTVhYThhNi0yMGJiLTQ0OTYtYjA0Ny1iMjE0ZGVhZTNkMzYifQ.TCqyaUd7Mj4StgHLtZWhMSeBklEiBDAwCyCTsQn09xg' \
+  -H 'content-length: 365' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Around service south for hit together.","courseId":"02642bea-4b4e-4d32-9078-de6392ea4b60","maxScore":95,"minScore":5,"orderIndex":24,"description":"Major important describe. Between growth not structure likely.\nBuild quality person his. Attention blood benefit offer hair.\nWhite establish officer more quality teach couple.","estimatedTime":"6 week(s)"}'

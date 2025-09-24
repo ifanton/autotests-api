@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjA5LjE5MjIwNyIsInVzZXJfaWQiOiIzNGM4OTI3MS1hZjUyLTQ2ZDUtYWJjMS0wZTVjYjIyNDA2NWMifQ.5n7L6fFbWWWDzyG-Oas0LslsqjI99U6wg9BhN3uC6Bs' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whether can step computer forget star.","maxScore":55,"minScore":21,"description":"Million remember sort blue buy. Dog particular whose issue bit mission imagine. Property process visit.","estimatedTime":"6 week(s)","previewFileId":"425b4284-29ea-4862-ba1f-6a46ed7a8104","createdByUserId":"34c89271-af52-46d5-abc1-0e5cb224065c"}'

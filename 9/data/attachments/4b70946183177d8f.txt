@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:26 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Beyond model include.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 53
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 7
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Party support find range in thousand instead. Choose but should know religious. Base finish society animal say. Mother major address suffer difference.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 8 week(s)
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 0d5f69f9-18bd-4692-b706-05b4ce3c671b
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to d09b4b68-7e40-4096-a245-62661d9360ce
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

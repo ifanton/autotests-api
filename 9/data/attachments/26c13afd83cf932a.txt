@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjExLjg5ODkwOCIsInVzZXJfaWQiOiI0YjBhZWFkMS1mY2ExLTQ3YzUtYWMyZS02MGIyYTdkZGU2OTgifQ.lhStccKErX7RZMc1Rxph0GogUB6i77yWkJ1cwqCBleQ' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Right trade message they money campaign specific.","maxScore":92,"minScore":7,"description":"Management meeting these instead amount technology accept. Debate form artist half allow among.\nI system push follow. Organization able suggest budget. Finish policy central respond century.","estimatedTime":"10 week(s)","previewFileId":"91a32a97-ee5c-4a55-afa6-3b6d111fbedb","createdByUserId":"4b0aead1-fca1-47c5-ac2e-60b2a7dde698"}'

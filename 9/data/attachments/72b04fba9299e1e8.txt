@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjEwOjExLjIyNzgxNiIsInVzZXJfaWQiOiJlOTVhYThhNi0yMGJiLTQ0OTYtYjA0Ny1iMjE0ZGVhZTNkMzYifQ.TCqyaUd7Mj4StgHLtZWhMSeBklEiBDAwCyCTsQn09xg' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Already fine pass turn fill task nearly building.","maxScore":79,"minScore":30,"description":"Above eat especially spring. Assume occur food us quality continue. Family mother toward increase.\nSeem forget safe call economic yourself. Forward form institution network.","estimatedTime":"10 week(s)","previewFileId":"0f142a68-e8ec-4458-ab3b-e6379460f4fb","createdByUserId":"e95aa8a6-20bb-4496-b047-b214deae3d36"}'
