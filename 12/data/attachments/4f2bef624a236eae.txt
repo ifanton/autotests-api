@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/7bfdb970-3406-4c23-9402-e2c0c33243d7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjAxOjQzLjM2MDIzMiIsInVzZXJfaWQiOiJlOTg0MDU2MS0zNDExLTRjNmYtOGIyNC0zNTQzNGEwMTU2MWUifQ.6UyUmu9eBTzOltANBI83XZXMycta3xt_ZgVlYMH2hUY' \
+  -H 'content-length: 295' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When including back themselves all technology.","maxScore":100,"minScore":13,"description":"Really her sister could different. Half against woman six usually. Shoulder find nor arm.\nBeyond whole quite gun dream. Fast concern instead step value boy bill.","estimatedTime":"10 week(s)"}'

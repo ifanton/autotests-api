@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjAxOjQzLjM2MDIzMiIsInVzZXJfaWQiOiJlOTg0MDU2MS0zNDExLTRjNmYtOGIyNC0zNTQzNGEwMTU2MWUifQ.6UyUmu9eBTzOltANBI83XZXMycta3xt_ZgVlYMH2hUY' \
+  -H 'content-length: 356' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Style others day technology civil since trial.","maxScore":75,"minScore":26,"description":"Million set realize it. Main employee radio staff grow.\nPart four service great if. Among whatever finally they.","estimatedTime":"5 week(s)","previewFileId":"692174e5-4462-4f39-b80e-22ea8a726c43","createdByUserId":"e9840561-3411-4c6f-8b24-35434a01561e"}'

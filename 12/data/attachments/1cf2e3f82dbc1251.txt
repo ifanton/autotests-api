@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0320e2d5-16dc-4fe1-8004-9d00df606edd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjAxOjQ2LjIyMzcxMSIsInVzZXJfaWQiOiJhNTBiY2ZhNS1iOWRhLTQ3NDMtOGZkZi0xMzJkNWQxM2Y3OTAifQ.wcr7tNA9z_PMa3Ogp5OSnS6wOIFqNSYcMDxHb2lghzU' \
+  -H 'content-length: 307' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability end people low minute nor.","maxScore":93,"minScore":2,"orderIndex":90,"description":"Son black officer their training. Plan significant clear data even.\nGirl moment must pressure woman support. Rock type total perform project green. Job full professor lead.","estimatedTime":"2 week(s)"}'

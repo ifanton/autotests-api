@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjAxOjQ4LjI0OTk2NSIsInVzZXJfaWQiOiIwNzY3ZTM2Mi0yMDQ4LTRlYzUtYjQwOC1lNDhhZWVjMDg3ZjMifQ.zgk9ttJRDjTfjtM-efDKgtzF5vsoSrtw2X0lVT8UWiE' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Scene statement candidate interesting.","maxScore":95,"minScore":10,"description":"Yard boy religious respond deal state. Congress entire campaign tree.\nKitchen how plant week single nor. Summer then open drug. Some learn mouth land maintain happy.","estimatedTime":"7 week(s)","previewFileId":"440a0923-3ffd-4d03-9898-2c22907d9c27","createdByUserId":"0767e362-2048-4ec5-b408-e48aeec087f3"}'

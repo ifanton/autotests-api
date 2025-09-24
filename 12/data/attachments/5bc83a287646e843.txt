@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjAxOjQ1LjQxMDM0NiIsInVzZXJfaWQiOiI5YTVjNjQ5OC03MzVhLTQ5YTAtOWVlOC04NGJhYTMzN2VkZmEifQ.DWTGFcdKI5DT9Yq4TN_0-IX7Ij5D5Rg6fvRFxdXf0ow' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy then way exist product.","courseId":"c2a6aa44-dd38-4785-82d9-39a94118716b","maxScore":60,"minScore":23,"orderIndex":22,"description":"Enter nation always. Imagine travel guess interview whatever check. Vote seven international lead I explain notice.\nHand participant rich couple film. Soon prevent view gun none condition.","estimatedTime":"5 week(s)"}'

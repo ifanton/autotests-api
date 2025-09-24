@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjAxOjQ0LjA0MTc2MyIsInVzZXJfaWQiOiIzODhkZGVjMy0zOGM2LTQ0ODUtYjU1Ny0xOWI5YWY1ZjJhZjcifQ.tgRLl82AL9lkHPwzyIM7wEhrFcRi8DgCIQ9sjBSj8Ao' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thank mouth century thousand reason.","maxScore":93,"minScore":13,"description":"Tend task into human. Article of pretty room structure under. Couple girl resource us surface buy.\nMaybe science partner fire plant moment. Result sense game remember like between.","estimatedTime":"3 week(s)","previewFileId":"e3daf931-b357-45e0-a808-6006f0d093e0","createdByUserId":"388ddec3-38c6-4485-b557-19b9af5f2af7"}'

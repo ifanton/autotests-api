@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjAxOjQyLjY4NjgwOSIsInVzZXJfaWQiOiI1NzI1ZjE3Mi01YjFiLTQ5NTEtODVkMC0zNTAxMDdhZWU0YmUifQ.PYfBUFSxU_j24BSTPNkTiQOOjoyTOO3jlmrHBm1wAuQ' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Them artist front.","maxScore":79,"minScore":15,"description":"Answer major agreement field issue floor feeling year. Help each customer process mission night color. Theory special size thousand sound wish.","estimatedTime":"6 week(s)","previewFileId":"bf7645c4-4f9f-4ca9-8cef-3f56acb16eec","createdByUserId":"5725f172-5b1b-4951-85d0-350107aee4be"}'
