@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjIxOjA1LjY0NDM1NCIsInVzZXJfaWQiOiIzODRhMjE0ZS04NTdiLTRhNDQtYmYxNi00MWQ0MjVkYTNkMjkifQ.-SBUwio3SoSn0jRD2o330NgIFxVPGIYx5KU2X59IB28' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mr conference enter try response campaign.","maxScore":63,"minScore":1,"description":"Point work step ask walk create media speak. Your whether film role animal continue minute worry.","estimatedTime":"10 week(s)","previewFileId":"13ad4ee2-3a57-4c68-be1b-5f00649e73d2","createdByUserId":"384a214e-857b-4a44-bf16-41d425da3d29"}'

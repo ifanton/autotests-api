@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:26 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Same wrong race what least body machine.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 93
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 4
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Even newspaper read let pull drop rest. Own travel miss quickly.
+Southern next machine southern family. Finish point manage among defense news clearly wonder.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 3 week(s)
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to ec53db0d-4333-4b57-97b9-922c825b1e39
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to 493e9d0f-c225-4c7e-99b9-ebd6b32f635f
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

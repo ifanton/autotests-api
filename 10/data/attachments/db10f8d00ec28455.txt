@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjIxOjA3LjU3MzkyNiIsInVzZXJfaWQiOiJiNjFhNmI1Ny1iMTk1LTRhY2QtOTBkMC1lOWVlYWE0ZmZlNDAifQ.XWbP8CjY9VoCrcePaF3R-BPal4CwHkI6C_-6aNDBgJ4' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Other also find during.","maxScore":51,"minScore":4,"description":"Open and wrong into. Can every rock however decade.\nFilm central public smile professional minute church. Why sport point contain quickly happen then. Wrong eat bar south beautiful.","estimatedTime":"1 week(s)","previewFileId":"53f14817-d976-4c88-99d0-1f0e3dc6309e","createdByUserId":"b61a6b57-b195-4acd-90d0-e9eeaa4ffe40"}'

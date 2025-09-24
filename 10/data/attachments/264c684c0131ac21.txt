@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjIxOjAzLjcyNzUzMyIsInVzZXJfaWQiOiI2NjU3ZGI0ZS1hMjM2LTQ1ZjItYTQzZS0xOGNlMTE3NmIyZjYifQ.kUhFJTyp_7av_ax7w7ZHFJmA-Ravr1N46kJcmzHIhgk' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Either herself show give amount me budget.","maxScore":85,"minScore":20,"description":"Outside message every front from manage prove. Expert reach relate other push three hundred.\nPaper research care culture watch. Bed notice attack chance yes artist argue huge.","estimatedTime":"2 week(s)","previewFileId":"9c427a21-e39b-407f-aa0c-7dfa95cf5f37","createdByUserId":"6657db4e-a236-45f2-a43e-18ce1176b2f6"}'

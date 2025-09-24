@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjIxOjAzLjA5MDEyNSIsInVzZXJfaWQiOiI0OTNlOWQwZi1jMjI1LTRjN2UtOTliOS1lYmQ2YjMyZjYzNWYifQ.2wCuIqvKIN-1csCkorf9KS6NFDxRF2RoIozX37eQKwQ' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Same wrong race what least body machine.","maxScore":93,"minScore":4,"description":"Even newspaper read let pull drop rest. Own travel miss quickly.\nSouthern next machine southern family. Finish point manage among defense news clearly wonder.","estimatedTime":"3 week(s)","previewFileId":"ec53db0d-4333-4b57-97b9-922c825b1e39","createdByUserId":"493e9d0f-c225-4c7e-99b9-ebd6b32f635f"}'

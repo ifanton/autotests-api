@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjIxOjA1LjAxMDI2NSIsInVzZXJfaWQiOiI1YWRiMmU0Yi1hYTRjLTQ2ZGUtODdlMC0xYTBjNGE0ZTMyZGIifQ.cp6-X1s-it-cK9LyRbOJhVU35Xf5D9qGDhawTtMdZjc' \
+  -H 'content-length: 346' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hear generation son describe.","maxScore":62,"minScore":28,"description":"Win firm be challenge article black. Begin agent hour probably human born but. Argue doctor affect participant strategy.","estimatedTime":"1 week(s)","previewFileId":"c55e54e9-f556-47ba-8ae5-8b495ec11811","createdByUserId":"5adb2e4b-aa4c-46de-87e0-1a0c4a4e32db"}'

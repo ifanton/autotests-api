@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/4701c052-c330-4dc5-81f9-551fc9cfaf6e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjIxOjAzLjcyNzUzMyIsInVzZXJfaWQiOiI2NjU3ZGI0ZS1hMjM2LTQ1ZjItYTQzZS0xOGNlMTE3NmIyZjYifQ.kUhFJTyp_7av_ax7w7ZHFJmA-Ravr1N46kJcmzHIhgk' \
+  -H 'content-length: 294' \
+  -H 'content-type: application/json' \
+  -d '{"title":"What build they man concern military share.","maxScore":79,"minScore":11,"description":"Better style long environment suddenly. Federal discover responsibility method find shake thought especially. Technology summer realize page teacher newspaper decide.","estimatedTime":"9 week(s)"}'
