@@ -21,7 +21,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v6  # GitHub Action для установки Python
         with:
-          python-version: '3.13'
+          python-version: '3.13.6'
 
       - name: Clone test server repository
         run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
@@ -58,6 +58,7 @@ jobs:
   publish-report:
     runs-on: ubuntu-latest
     needs: run-tests
+    if: always() && (needs.run-tests.result == 'success' || needs.run-tests.result == 'failure')
 
     steps:
       - name: Get Allure history
