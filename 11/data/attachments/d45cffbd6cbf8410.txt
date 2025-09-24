@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjE5LjA3NTUzOSIsInVzZXJfaWQiOiI4MDIxNmYxMi0yNmI5LTRhOTMtYTcwMS1kMmZlNzExMjVjYzgifQ.Rbc00JkV7mXw3aSGevgqDypnZ4j5UQiuf0JUO3jwPnw' \
+  -H 'content-length: 396' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Sit according cover sit sea hard.","maxScore":94,"minScore":15,"description":"Religious seven beautiful blood year yet dream. Kind coach maybe society.\nBetter it actually. Others figure Mr structure choice. Capital spring team most beat paper.","estimatedTime":"6 week(s)","previewFileId":"0edd7fa2-cd0c-4980-a20d-7c6aaa7a3951","createdByUserId":"80216f12-26b9-4a93-a701-d2fe71125cc8"}'

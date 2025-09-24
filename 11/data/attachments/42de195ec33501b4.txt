@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjE5LjA3NTUzOSIsInVzZXJfaWQiOiI4MDIxNmYxMi0yNmI5LTRhOTMtYTcwMS1kMmZlNzExMjVjYzgifQ.Rbc00JkV7mXw3aSGevgqDypnZ4j5UQiuf0JUO3jwPnw' \
+  -H 'content-length: 310' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Able available trip support machine policy.","courseId":"5cdab42c-8fb2-4e75-8314-6b77f93e997a","maxScore":72,"minScore":10,"orderIndex":34,"description":"Truth south attack better indicate color. Break exist suddenly interesting citizen toward. Different sign space ten.","estimatedTime":"6 week(s)"}'

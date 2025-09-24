@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjE3LjA1MDUzMiIsInVzZXJfaWQiOiJmNzM5NTAxZi05NWI4LTQ1YWItOTk2NS1jZDUzMmNiNGIxYjAifQ.ysDW9Vu1Cye2-CaAax3yccW2wjeWCfFNdgkxuVjpBhQ' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Lead nation through character.","maxScore":77,"minScore":17,"description":"Send meet suggest sit travel mouth paper. Accept form green which. According good field choice.\nRead north those. Try question analysis involve picture across ten. Himself bad floor hear throw.","estimatedTime":"2 week(s)","previewFileId":"efa09bd9-43aa-4601-bd17-d8ef967e36d0","createdByUserId":"f739501f-95b8-45ab-9965-cd532cb4b1b0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjIwLjQxODc1OCIsInVzZXJfaWQiOiI5OTlmMjRiYy1iNmNiLTRlOWItYjZkNy04Yzc0MzZhYmYxYzIifQ.pBJS_wMFS-5CA4PmB8xbrOttHWkmpwhgO34yQpUvF6A' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Maybe our fire player interview.","maxScore":88,"minScore":6,"description":"Lay as picture take. Particularly travel positive rest. According fish somebody customer every population computer must.","estimatedTime":"2 week(s)","previewFileId":"8fab8716-4a24-45de-8d03-5fe8b4413e1f","createdByUserId":"999f24bc-b6cb-4e9b-b6d7-8c7436abf1c2"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjIxLjc3OTExMiIsInVzZXJfaWQiOiJhNjk4YzVjYS1lZmNmLTRhNDctYTE4YS0zZjExNzg3ZGEzYmYifQ.IUDZHv7kdTP-J6uh0CNCQsMIi-GArp7vv593qszrSXM' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Series election carry today factor direction Congress.","maxScore":99,"minScore":1,"description":"Whether season box attention past before. People site security official answer yet. Other could total remember several seven.","estimatedTime":"8 week(s)","previewFileId":"d41df8e0-e8da-4405-9574-4155669fb402","createdByUserId":"a698c5ca-efcf-4a47-a18a-3f11787da3bf"}'

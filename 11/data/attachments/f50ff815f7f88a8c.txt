@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjE5Ljc0MjQ0OCIsInVzZXJfaWQiOiJjMDdhZmYyMi1kYjgzLTRlNmEtYTY5Yy1iYTMxNGEwY2NkMWIifQ.eQo58aYmUjton8Emp0pmS3o41T3qJgrzGT5P8TLjE3M' \
+  -H 'content-length: 338' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Say society common agent single first.","maxScore":53,"minScore":21,"description":"Understand worry several none memory. Charge red raise. Experience understand economy democratic avoid.","estimatedTime":"2 week(s)","previewFileId":"78a2218a-0c36-4371-b48e-bf894418bd49","createdByUserId":"c07aff22-db83-4e6a-a69c-ba314a0ccd1b"}'

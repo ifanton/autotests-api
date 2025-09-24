@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjE4LjM5Nzg1OCIsInVzZXJfaWQiOiI1YTNiOWJlZC05Y2FkLTQ5OTctOGQ1Mi1kMWY4OGFhMjkxN2IifQ.eFHGAec4KaXb0THEUnaiC6jZtAADv-vrfomKwgyDQQA' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Modern free arrive high wall.","maxScore":60,"minScore":22,"description":"Matter successful difficult several represent moment skill job. Issue maintain building article.\nSoldier section account several professional reflect wait enter. Air idea rich few paper everyone.","estimatedTime":"1 week(s)","previewFileId":"31b23c90-8668-47b9-b457-320001a1d390","createdByUserId":"5a3b9bed-9cad-4997-8d52-d1f88aa2917b"}'

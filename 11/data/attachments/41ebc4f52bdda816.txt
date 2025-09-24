@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjE3LjcyMzYxMiIsInVzZXJfaWQiOiIxYzQyMmRlNS04ZDYwLTQ0YTYtYjJkNi0wZmRlMjRkMmNmY2EifQ.ViyIvoEX0k3rUEFf7qub32wGzV872FWQ5hfp5uUshv8' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deal table strong continue should onto.","maxScore":57,"minScore":17,"description":"Determine company administration including off suffer. Agent bad oil without. Relate various center wall stuff green. Once recently serious man under friend experience.","estimatedTime":"7 week(s)","previewFileId":"ead66b26-10b4-406f-bfd8-207200d77638","createdByUserId":"1c422de5-8d60-44a6-b2d6-0fde24d2cfca"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEzOjQ5OjIwLjQxODc1OCIsInVzZXJfaWQiOiI5OTlmMjRiYy1iNmNiLTRlOWItYjZkNy04Yzc0MzZhYmYxYzIifQ.pBJS_wMFS-5CA4PmB8xbrOttHWkmpwhgO34yQpUvF6A' \
+  -H 'content-length: 328' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Almost election number certainly data.","courseId":"f5291ce3-0b41-4ed5-b61c-20647e3754a1","maxScore":88,"minScore":17,"orderIndex":45,"description":"Special care address. Great girl important recognize relate.\nGround lose huge agent. Over moment left series. Green continue between data.","estimatedTime":"8 week(s)"}'
