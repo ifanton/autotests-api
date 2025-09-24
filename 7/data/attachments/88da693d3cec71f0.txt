@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjA0LjgzMjg5NyIsInVzZXJfaWQiOiI2ZDI3YzVmNS1hNTk3LTQxZGEtOTJiMy1jZjc3ODJmMmE0YTEifQ.GtnMP0H5mFPK1SlmBphHX8FqfF4dUqpM9cMq6vCRCiY' \
+  -H 'content-length: 407' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All floor analysis feel.","maxScore":51,"minScore":18,"description":"Democratic activity image walk this development. Future sure reduce church. Artist car authority present herself popular.\nDefense participant challenge over bag. Cut call forget middle.","estimatedTime":"5 week(s)","previewFileId":"2d0c7be3-fd32-4ac1-8d48-dd532d50c5eb","createdByUserId":"6d27c5f5-a597-41da-92b3-cf7782f2a4a1"}'

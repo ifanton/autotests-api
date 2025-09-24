@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjA0LjgzMjg5NyIsInVzZXJfaWQiOiI2ZDI3YzVmNS1hNTk3LTQxZGEtOTJiMy1jZjc3ODJmMmE0YTEifQ.GtnMP0H5mFPK1SlmBphHX8FqfF4dUqpM9cMq6vCRCiY' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Partner edge member without prepare type leader.","courseId":"c7b6a798-a25c-49f5-8af5-7168efbabeb7","maxScore":63,"minScore":11,"orderIndex":11,"description":"His sort hold why only bank. Us culture open part despite lot everyone those.\nMiddle about station fact born those. Realize level speech least throw dinner ball game.","estimatedTime":"8 week(s)"}'

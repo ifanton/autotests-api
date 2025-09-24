@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjA3LjUxOTc3OSIsInVzZXJfaWQiOiIwNmQ2OTU3YS00YTU3LTRmNzgtYjVjNi01YmM5YzVjNzNlMmYifQ.elsdBlnp2xLcDP1oYjRLPPawLwRhUsLygsbTx9koFVQ' \
+  -H 'content-length: 420' \
+  -H 'content-type: application/json' \
+  -d '{"title":"For environment trip tax better.","maxScore":92,"minScore":6,"description":"Develop other consumer recognize girl thank wife. Professional because town.\nRoad agency choose shoulder trial administration whose. Organization painting take try. Finally thing control him.","estimatedTime":"6 week(s)","previewFileId":"e15f249b-c802-4819-bd84-042747d960cb","createdByUserId":"06d6957a-4a57-4f78-b5c6-5bc9c5c73e2f"}'

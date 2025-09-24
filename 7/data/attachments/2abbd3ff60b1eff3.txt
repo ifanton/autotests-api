@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:26 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Particularly believe also hear serve space central.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 61
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Fire operation short own risk it heavy. Figure agree get. Across direction beautiful.
+Two sound across college exactly. Population American five happy reality guy.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 8 week(s)
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to 4975a61f-2eea-4795-b5a5-9671c2bd7620
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to fceb5924-a675-404c-aabe-2b46ff954220
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

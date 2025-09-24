@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjA2Ljg0OTQ0NCIsInVzZXJfaWQiOiJjZmYxMzRiZi1kY2I0LTQ0ZjAtYTcxNC03NDVlOWRhZDQ5N2IifQ.n3MC5b3q0Hk0N7KP9UbLeCWMhJM3-UtnfEMSUUaVVfU' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing center but get.","maxScore":89,"minScore":17,"description":"Training focus goal small much. House sometimes themselves make conference seem member. Provide plan often agree school hand.\nListen head career response. Enter wish increase politics thank need.","estimatedTime":"2 week(s)","previewFileId":"6e066fd8-417f-44fd-8a63-5f0b0bdd9841","createdByUserId":"cff134bf-dcb4-44f0-a714-745e9dad497b"}'

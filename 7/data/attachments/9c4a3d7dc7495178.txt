@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjA1LjQ5MzcwMCIsInVzZXJfaWQiOiJhZGQwMzQ2MC1jOWMxLTQ0MDMtOWRiZi0wYjgxODg1ZTJjNjAifQ.0JhS-2ePy-vfevr19lZy80tnaKOdyz0q_EZJJ_LXW4E' \
+  -H 'content-length: 406' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Particularly a newspaper before front.","maxScore":50,"minScore":1,"description":"Evidence discussion several above store notice girl number. Mother usually benefit investment foreign.\nPressure pass network lay part. Memory child major firm picture run.","estimatedTime":"7 week(s)","previewFileId":"1803f154-e3ec-48a0-ac4e-4f4936d585fa","createdByUserId":"add03460-c9c1-4403-9dbf-0b81885e2c60"}'

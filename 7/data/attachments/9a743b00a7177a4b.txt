@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjA0LjAzOTI0MiIsInVzZXJfaWQiOiIwMzg0ZmYwNy0xZmQ4LTQ0ZTktOGY0NC05YzllYmYyZWMwNmIifQ.Ewq2c5Q2eoWYs64ipFZkfn39vItChULFGu5Zlj4WwPw' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bill hot affect.","maxScore":72,"minScore":4,"description":"His our scientist explain will like. Thus determine school science run. Concern economy short trial.\nGeneral then bad wife. Drop world entire serve leave. Structure price why Mr write recent case.","estimatedTime":"7 week(s)","previewFileId":"06ebbf5e-7565-4418-bc12-30dd50aaebdf","createdByUserId":"0384ff07-1fd8-44e9-8f44-9c9ebf2ec06b"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjA2LjE2NTI1MSIsInVzZXJfaWQiOiI0M2ZlOTdjNy00ZDAwLTQyOTEtYTRkMS00ZGMzM2QzZDQ0NzUifQ.Vqc_Q4YMx_yDp29P9WT22kX6XllmwNc5tiK8GopxgxM' \
+  -H 'content-length: 336' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Understand with garden charge theory yes.","courseId":"b0fe5dc6-b3a5-4606-9793-4a58dc2a21fc","maxScore":97,"minScore":18,"orderIndex":94,"description":"Work former policy might response others. Involve Congress little close.\nBase ball option listen. Create them figure job phone clearly measure.","estimatedTime":"3 week(s)"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/8a86b38e-c094-47ae-92b6-72f63b97833e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDEwOjUwOjAzLjM3MDUwNyIsInVzZXJfaWQiOiI5OTZiOWY0Ny1hMzkyLTQ4ZGYtYTg4ZC1lMWIzMzQ1YzhjYWEifQ._dXNgAXLz-LIlmmWeOagqqMm4q9el8XqVQKCaLGr7rE' \
+  -H 'content-length: 246' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Join nothing serve whatever current analysis us machine.","maxScore":54,"minScore":30,"description":"Explain rather partner own stage pressure edge. Political model minute public whatever factor front type.","estimatedTime":"2 week(s)"}'
