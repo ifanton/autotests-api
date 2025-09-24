@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjMxLjY3MTk2OSIsInVzZXJfaWQiOiJlYjJkMmE2Yi1lNDUyLTRjMGYtYjlmZS0zODhjOWZmNjhmMjUifQ.bJh5dMxVNiZ9u2EBv-jcRwr8t_HBrO5x39f5PhvmDYs' \
+  -H 'content-length: 349' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also enter card company.","maxScore":52,"minScore":11,"description":"Large old forget idea rest reach. Hundred win either example property course letter.\nFar room sister other although card close.","estimatedTime":"4 week(s)","previewFileId":"738e21e0-ea3d-4d65-aea2-c93da5a01f4d","createdByUserId":"eb2d2a6b-e452-4c0f-b9fe-388c9ff68f25"}'

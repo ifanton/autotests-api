@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjM2LjQzMTU3MiIsInVzZXJfaWQiOiI2YzI5Y2I3Yi1lNjdkLTRhNWYtYTYzMC04OTg2NGNjMzI5YmIifQ.PPcuO_9hfnvjl0H7p-LoTeIvcT65-yYqGLreN2yXkRk' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Be movie maybe want.","maxScore":64,"minScore":19,"description":"Sing season now. Face indeed house. Sound hit similar foot material through.","estimatedTime":"2 week(s)","previewFileId":"c8143b71-8f62-41d9-aec6-171e18431b11","createdByUserId":"6c29cb7b-e67d-4a5f-a630-89864cc329bb"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjMzLjAyNzU0MiIsInVzZXJfaWQiOiIxN2UxNmZhNS1lYzA3LTRkYmYtYmU1Ny1lZmFkMDc2MWY1ZGMifQ.4Wpe7RiCc-BWZX8Ut1LwobmIstHZ0ds79UjHmuIDlCM' \
+  -H 'content-length: 370' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player church long option Republican talk baby.","maxScore":78,"minScore":30,"description":"Role my expert conference partner professor. Fly toward me part prove attention.\nEnvironment mission almost according entire.","estimatedTime":"3 week(s)","previewFileId":"efcc0f1f-cab2-4ae0-805d-5fb5b83e0387","createdByUserId":"17e16fa5-ec07-4dbf-be57-efad0761f5dc"}'

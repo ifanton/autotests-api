@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjMyLjM0Nzc4NCIsInVzZXJfaWQiOiI1YjEyNDE3ZS1lNWRhLTQxZGMtODMzZS0zMTkxN2VlZDkxODYifQ.tIEx7djEyDDEDFr1T7RDg2QoYmDK3viIV4LLPbmrMCM' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"When remember voice popular night marriage.","maxScore":73,"minScore":6,"description":"Tell summer evidence most speech. Itself company evidence travel data growth.\nLife product trade water street relationship rise. Street some meet culture enough. For personal around end.","estimatedTime":"7 week(s)","previewFileId":"914f2e1a-046d-4d19-81f8-da37f5852bbd","createdByUserId":"5b12417e-e5da-41dc-833e-31917eed9186"}'

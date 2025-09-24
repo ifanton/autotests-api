@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjM0LjM3ODQ4MyIsInVzZXJfaWQiOiJiYTU5MjA0YS0zZjZhLTQ0MGEtOGZlZS1lZjZlMTM4OTRkMTAifQ.UhmLxchG4JV_Kdktr8kfQgp5-JVGD-vChPHAcfkrjII' \
+  -H 'content-length: 447' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Also magazine product check receive product nation top.","maxScore":63,"minScore":26,"description":"Pull half book analysis job receive. Ground certainly boy street understand catch personal across. Wait together treat cold event.\nHit news second agent. Base out level accept. Get court second.","estimatedTime":"7 week(s)","previewFileId":"c007d422-0bd5-46ad-901f-e015a8ce3308","createdByUserId":"ba59204a-3f6a-440a-8fee-ef6e13894d10"}'

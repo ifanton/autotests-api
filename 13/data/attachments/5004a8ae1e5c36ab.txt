@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjMzLjcwNzg1NiIsInVzZXJfaWQiOiJjNGJhZjAwYy0zNTk3LTQ2OGQtYjdiMi0zOGE0MzVjMDZkNzQifQ.Fpa3TxthH7bJUHLHyqDsGlLAIu3M40CoV7lgVwFcx2s' \
+  -H 'content-length: 288' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Compare rise suggest money up.","courseId":"8b0e31c9-3816-43ab-8d8f-f725210d6bae","maxScore":99,"minScore":4,"orderIndex":90,"description":"Page part stage fill agency. Reduce yourself information federal great. Design month inside recognize since.","estimatedTime":"5 week(s)"}'

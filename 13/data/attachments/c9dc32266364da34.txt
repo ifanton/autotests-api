@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjM1Ljc1MTAzMiIsInVzZXJfaWQiOiJiY2M3Yjk0MC05YmExLTRjOTMtOGU2OS02NzUwMDhjYmI3ZWQifQ.sG6yZYN8-QvBiek39LbtCjCGteT3sV-NZMXn6hEFpkk' \
+  -H 'content-length: 362' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thought follow degree remember least hand despite quickly.","maxScore":99,"minScore":3,"description":"Religious provide popular everybody although government land task. Tax weight value true edge help network.","estimatedTime":"10 week(s)","previewFileId":"09133974-cdbc-4c3b-93b4-ba5b0abefc55","createdByUserId":"bcc7b940-9ba1-4c93-8e69-675008cbb7ed"}'

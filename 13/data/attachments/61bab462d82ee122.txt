@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/d28cdf83-1827-4297-8d3e-04956f2aa551
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/d28cdf83-1827-4297-8d3e-04956f2aa551
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:49 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Quality one hair often after foot base.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 54
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Join check consider to everyone. Hold process study along.
+Travel or along community for day.
+Like seven family travel real can out policy. Perform write follow child choose specific spring.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

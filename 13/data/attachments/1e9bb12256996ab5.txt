@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjM1LjA1ODkwNCIsInVzZXJfaWQiOiJmOWE0ZTVmZC1lZTBjLTRhNjItYWY3Zi1iMjU4OTZjNGRmMDkifQ.1HibyuupxxmOpOdCo7hVB9e9yQDhiMrqkKvMhcpySLY' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Agreement threat surface democratic friend.","maxScore":95,"minScore":30,"description":"Use raise conference firm.\nHeart if inside five no tax. Responsibility bill understand what meeting.\nAmong me entire dog. Car artist assume. Much enjoy their name.","estimatedTime":"2 week(s)","previewFileId":"d79cfb1d-49ef-4f6e-bcff-6978389af4f5","createdByUserId":"f9a4e5fd-ee0c-4a62-af7f-b25896c4df09"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/d28cdf83-1827-4297-8d3e-04956f2aa551' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjMyLjM0Nzc4NCIsInVzZXJfaWQiOiI1YjEyNDE3ZS1lNWRhLTQxZGMtODMzZS0zMTkxN2VlZDkxODYifQ.tIEx7djEyDDEDFr1T7RDg2QoYmDK3viIV4LLPbmrMCM' \
+  -H 'content-length: 316' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quality one hair often after foot base.","maxScore":54,"minScore":14,"description":"Join check consider to everyone. Hold process study along.\nTravel or along community for day.\nLike seven family travel real can out policy. Perform write follow child choose specific spring.","estimatedTime":"6 week(s)"}'

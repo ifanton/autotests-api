@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjM1Ljc1MTAzMiIsInVzZXJfaWQiOiJiY2M3Yjk0MC05YmExLTRjOTMtOGU2OS02NzUwMDhjYmI3ZWQifQ.sG6yZYN8-QvBiek39LbtCjCGteT3sV-NZMXn6hEFpkk' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Movement rather window report who project without.","courseId":"db294326-84dd-4a13-9fe4-086f6aeccacb","maxScore":86,"minScore":13,"orderIndex":18,"description":"Coach energy various main other. Send full speak. Nothing center well she change provide whether.","estimatedTime":"3 week(s)"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTA5LTI0VDE0OjA2OjMzLjcwNzg1NiIsInVzZXJfaWQiOiJjNGJhZjAwYy0zNTk3LTQ2OGQtYjdiMi0zOGE0MzVjMDZkNzQifQ.Fpa3TxthH7bJUHLHyqDsGlLAIu3M40CoV7lgVwFcx2s' \
+  -H 'content-length: 424' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Loss operation trouble happen network suffer one set.","maxScore":56,"minScore":5,"description":"Example everybody report wide. Guy join tonight south shake building.\nMajority message wear kitchen appear.\nCamera push break war current. Result focus option season arrive.","estimatedTime":"5 week(s)","previewFileId":"2d0983d9-cecf-4350-b550-8ada0ac3f768","createdByUserId":"c4baf00c-3597-468d-b7b2-38a435c06d74"}'
