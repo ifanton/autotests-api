@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE1OjI0OjU3Ljc4NjQ2MyIsInVzZXJfaWQiOiJkNjIyOWRmOS0yOTEyLTQyYjItYWZhNC05MjBlMjgxNWIwMWQifQ.XAkK1lsWNw8_MDVgDdJUrqOQDmqidgJ6QGMfP2pNTwY' \
+  -H 'content-length: 415' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Player give single difficult not.","maxScore":84,"minScore":2,"description":"Be relationship simply rest. Former response value thousand character single worry.\nModern spring understand. Treatment here than compare under break. From spring degree key trip issue.","estimatedTime":"3 week(s)","previewFileId":"d94df0e8-8c26-417d-be26-6175a74ca2eb","createdByUserId":"d6229df9-2912-42b2-afa4-920e2815b01d"}'

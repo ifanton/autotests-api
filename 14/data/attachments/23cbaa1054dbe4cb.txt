@@ -1,0 +1,24 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/39ad821d-9870-413c-828b-4262c5421507
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/39ad821d-9870-413c-828b-4262c5421507
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:71 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:49 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Receive especially thing school.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 92b6ed4d-92a7-4432-9ab2-2a17575ecfc0
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 83
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 30
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 46
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Page out fly section. Rock idea word others wrong drop.
+Stand party action past. Somebody even design forget man continue. Rule line tend guess. Sit enjoy Republican child article.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 7 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE1OjI1OjAwLjQ3ODE0NiIsInVzZXJfaWQiOiIyZDc4ZDE5Yi1hZDFjLTQxMzEtOGMzYS1hNDUwODllODNkZjQifQ.Z4mVfUSD_VzUg-1j1pbhmUXedQc5g2mwvBokkxbaq_U' \
+  -H 'content-length: 426' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Leg television in language gas.","maxScore":91,"minScore":21,"description":"Health test both. Conference stand line major collection. Citizen than pressure left keep talk never shoulder.\nBeat dog nothing until spring above. In management else discuss board author specific.","estimatedTime":"7 week(s)","previewFileId":"f5ffa3b2-87e9-45fd-bede-866b8296538d","createdByUserId":"2d78d19b-ad1c-4131-8c3a-a45089e83df4"}'

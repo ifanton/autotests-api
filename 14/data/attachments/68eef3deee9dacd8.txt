@@ -1,0 +1,18 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/51273eb6-270b-4942-bb81-eb98c4f3aea1
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/51273eb6-270b-4942-bb81-eb98c4f3aea1
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:49 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Pretty draw rather hope television age smile receive.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 65
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 29
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Family address eye sound value direction. Thought lawyer ready religious.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 2 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

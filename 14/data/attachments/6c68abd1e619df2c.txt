@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE1OjI1OjAyLjUxNjc5MyIsInVzZXJfaWQiOiI2NmFhNDRmNC1jMTIzLTRhNTYtODk1YS01ODFiNzEzZTQ3MDgifQ.vkG2YSvWwJHRsr57A9w5MjVzwi1GTXcHDjwPPX-x7Dw' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Quickly represent us meeting future.","maxScore":81,"minScore":3,"description":"Quite clear news agreement lead specific. Apply oil bit report else red movement.\nArtist animal recognize black. Machine effort two house.","estimatedTime":"7 week(s)","previewFileId":"788baabf-1015-4b91-ad08-c52a5c666e64","createdByUserId":"66aa44f4-c123-4a56-895a-581b713e4708"}'

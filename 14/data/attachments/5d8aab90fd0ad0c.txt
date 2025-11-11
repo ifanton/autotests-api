@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE1OjI1OjAxLjE1NzM1MCIsInVzZXJfaWQiOiI0MjVlM2M1MC01MmUxLTQ2ZDItYjA5ZC02OTE4MDAyZGE3ZmMifQ.9B944m9_EpNamarn1aC7AptXs0MlAQaEmzFKdzfDS28' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"You cultural past maintain pay although.","maxScore":61,"minScore":11,"description":"Next race itself though move environmental. Unit may fly ready southern coach school.\nWide itself nor west order. House power building each.","estimatedTime":"1 week(s)","previewFileId":"35a229d9-5ea0-4f7a-ad53-45fa23b3dea5","createdByUserId":"425e3c50-52e1-46d2-b09d-6918002da7fc"}'

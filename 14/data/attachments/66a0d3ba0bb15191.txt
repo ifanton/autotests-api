@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE1OjI1OjAwLjQ3ODE0NiIsInVzZXJfaWQiOiIyZDc4ZDE5Yi1hZDFjLTQxMzEtOGMzYS1hNDUwODllODNkZjQifQ.Z4mVfUSD_VzUg-1j1pbhmUXedQc5g2mwvBokkxbaq_U' \
+  -H 'content-length: 364' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Receive especially thing school.","courseId":"92b6ed4d-92a7-4432-9ab2-2a17575ecfc0","maxScore":83,"minScore":30,"orderIndex":46,"description":"Page out fly section. Rock idea word others wrong drop.\nStand party action past. Somebody even design forget man continue. Rule line tend guess. Sit enjoy Republican child article.","estimatedTime":"7 week(s)"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/51273eb6-270b-4942-bb81-eb98c4f3aea1' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE1OjI0OjU4LjQ1ODI0OCIsInVzZXJfaWQiOiIzZDIwNzlkOC0xMzkzLTRmMzgtYTgwOC1hZTE1ZWRlMjI3ZmIifQ.8a6X7WDLnIvze1J4PbWws-iWpor-9U91Ype9_IT_aw8' \
+  -H 'content-length: 211' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Pretty draw rather hope television age smile receive.","maxScore":65,"minScore":29,"description":"Family address eye sound value direction. Thought lawyer ready religious.","estimatedTime":"2 week(s)"}'

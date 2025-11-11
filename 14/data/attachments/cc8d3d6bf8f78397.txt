@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:26 Check create course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Player give single difficult not.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 84
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 2
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Be relationship simply rest. Former response value thousand character single worry.
+Modern spring understand. Treatment here than compare under break. From spring degree key trip issue.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 3 week(s)
+INFO     BASE_ASSERTIONS:base.py:37 Check that "preview_file_id" equals to d94df0e8-8c26-417d-be26-6175a74ca2eb
+INFO     BASE_ASSERTIONS:base.py:37 Check that "created_by_user_id" equals to d6229df9-2912-42b2-afa4-920e2815b01d
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE1OjI1OjAxLjg0MTgyMiIsInVzZXJfaWQiOiIzODVjYmVmNy0xNzU3LTQzNmItYWI1Yy0wMzVlZjM3MTVhY2QifQ.DHIgXQlBqMyizjc52m-owWkOGJBKwh-P53MWtmMBk9s' \
+  -H 'content-length: 375' \
+  -H 'content-type: application/json' \
+  -d '{"title":"That trip rock behind.","maxScore":69,"minScore":30,"description":"Know especially look media. Now teach decide increase. Health attack country writer.\nScene hot loss base certain let hot. Language husband prepare energy.","estimatedTime":"10 week(s)","previewFileId":"4e329d26-1bae-4ce6-a430-e859ee613d18","createdByUserId":"385cbef7-1757-436b-ab5c-035ef3715acd"}'
