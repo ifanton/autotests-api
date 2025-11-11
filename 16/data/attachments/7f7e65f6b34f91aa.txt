@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIwLjkxNTQyNyIsInVzZXJfaWQiOiI0ZWZjNDIwNi05N2Q1LTQ0ZjMtOThiZC0wNTQxMDBkZDQ1NTUifQ.kIBX1AOLHap4p0JgswtuPbbZn3pO8cYiOj6wWTQiVPs' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Property economic form movement attack fund stand.","maxScore":96,"minScore":4,"description":"Black war always. Size hotel know find improve less course. Ready against coach.\nInformation wind enjoy onto. Increase project year buy man.","estimatedTime":"6 week(s)","previewFileId":"4b0eb462-f0f3-4936-a929-f7b1a8c0a961","createdByUserId":"4efc4206-97d5-44f3-98bd-054100dd4555"}'

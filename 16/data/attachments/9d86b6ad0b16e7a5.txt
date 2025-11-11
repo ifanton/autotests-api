@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/2b0074d4-7119-4d45-acec-aacc57afe984' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjE5LjU2NzQ1MSIsInVzZXJfaWQiOiIzOTE5YjlkMy1mODk3LTRmODctYmY2YS05NjAwNWFlMjgzNzEifQ.zsdsUbPcDCYaLU6lHJ8V5u3UD802PFIVa3tvSVMT4G4' \
+  -H 'content-length: 296' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Final here treat.","maxScore":72,"minScore":17,"description":"Site effect consider time author. Treatment debate hour.\nEnergy stage about billion account. Bit air not would TV. Energy table role land. Manage level although have which evening several fast.","estimatedTime":"2 week(s)"}'

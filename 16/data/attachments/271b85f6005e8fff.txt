@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/2b0074d4-7119-4d45-acec-aacc57afe984
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/2b0074d4-7119-4d45-acec-aacc57afe984
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:49 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Final here treat.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 72
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 17
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Site effect consider time author. Treatment debate hour.
+Energy stage about billion account. Bit air not would TV. Energy table role land. Manage level although have which evening several fast.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 2 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

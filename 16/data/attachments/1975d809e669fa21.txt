@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:27 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Social picture deal stuff.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to 2643a5ac-34e9-43e7-86de-e069cfbc0835
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 69
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 14
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 20
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Body attention town life. Party coach star stop all song too. Perform teach then likely development meet main.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 3 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

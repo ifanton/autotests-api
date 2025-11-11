@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/3efbe4df-72bd-4854-a5c9-8619f0f864f4' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIyLjU0NDE5NCIsInVzZXJfaWQiOiIzNTViYWNhNi0yZjgwLTRhYTEtYjNhNC02YWJhOTMwNTNhYWQifQ.Nbtb0WPBfxiWunikQR8yS0tgS8CCmpscGQhPWHvW1_I' \
+  -H 'content-length: 265' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Specific fall amount.","maxScore":67,"minScore":11,"orderIndex":81,"description":"Process north give around. Line win risk more together.\nPerson city push whom budget seven born. Glass particular local Democrat join simple.","estimatedTime":"10 week(s)"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIzLjg5ODE5MyIsInVzZXJfaWQiOiJmZjQ4ODI4Ni01OTY2LTQ3NWUtODRkOC1iNjYxNDc2ZDczMzEifQ.HitGpsCrn4mkkb2Bc1Xa4HLCQdHvVFevgE7HMdF8Smc' \
+  -H 'content-length: 340' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Often eye door chance bring.","courseId":"a707c642-d318-496c-b5c1-9b9d56b5e643","maxScore":100,"minScore":19,"orderIndex":82,"description":"Mr recently image our. Fear front her born better she now dream.\nSeek black specific recently begin total drop inside. Answer down citizen daughter happy know.","estimatedTime":"6 week(s)"}'

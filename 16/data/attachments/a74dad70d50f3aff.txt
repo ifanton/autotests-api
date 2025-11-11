@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIyLjU0NDE5NCIsInVzZXJfaWQiOiIzNTViYWNhNi0yZjgwLTRhYTEtYjNhNC02YWJhOTMwNTNhYWQifQ.Nbtb0WPBfxiWunikQR8yS0tgS8CCmpscGQhPWHvW1_I' \
+  -H 'content-length: 402' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Heart low him.","maxScore":51,"minScore":12,"description":"Lot when him dark large air. Course house beat east nice.\nTraining low hold share yeah pretty send.\nThan box natural campaign. Color military discussion out themselves hit remember nothing.","estimatedTime":"2 week(s)","previewFileId":"3ec5afc1-f4d2-4ca9-87d1-85de35dd664a","createdByUserId":"355baca6-2f80-4aa1-b3a4-6aba93053aad"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIzLjg5ODE5MyIsInVzZXJfaWQiOiJmZjQ4ODI4Ni01OTY2LTQ3NWUtODRkOC1iNjYxNDc2ZDczMzEifQ.HitGpsCrn4mkkb2Bc1Xa4HLCQdHvVFevgE7HMdF8Smc' \
+  -H 'content-length: 421' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Realize full agree best choice.","maxScore":57,"minScore":1,"description":"Opportunity expect forget range former. Physical no international message population reflect particularly.\nMiddle particular movie kitchen plan assume field with. Score guess we paper Congress.","estimatedTime":"8 week(s)","previewFileId":"60937a95-e4b1-4f01-aafc-ad4f3e3dbd03","createdByUserId":"ff488286-5966-475e-84d8-b661476d7331"}'

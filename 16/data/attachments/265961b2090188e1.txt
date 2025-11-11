@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIxLjU4NjAzNSIsInVzZXJfaWQiOiI2NjI5YmM4Ni04YzE0LTQ3YzgtOTE4OS1lNDcyYmExOWI0MzMifQ.afi9ApvfR-rlb2kUsrkKLSBoiU_ripR31Zfqy-ZcJVQ' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wall result effect safe.","maxScore":95,"minScore":18,"description":"Store body fund state feeling.\nMind sometimes ever. Around probably southern compare. Vote there red everyone Mr. Official design imagine discover but design expect.","estimatedTime":"3 week(s)","previewFileId":"2ca4324a-d42d-499a-bb8a-33a63e0f7413","createdByUserId":"6629bc86-8c14-47c8-9189-e472ba19b433"}'

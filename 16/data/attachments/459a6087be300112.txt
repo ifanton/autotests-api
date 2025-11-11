@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjE4Ljg5NzQ5MyIsInVzZXJfaWQiOiJmNjAzNDE5Yy1jOGVlLTQ1MGMtYmQ1ZC1kNmE3NTU0MDE3NjcifQ.43NOeGMJeg3j7AF33Ij1nGCxZ4HBU7aVa6peAjWxHgA' \
+  -H 'content-length: 393' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Might candidate fight argue.","maxScore":68,"minScore":5,"description":"Control finally audience long modern morning. Lose game consider military father remain.\nIt world factor. Conference kitchen successful billion all without sing agency.","estimatedTime":"4 week(s)","previewFileId":"2e83c11a-228e-41db-8afa-438ebb35e9e2","createdByUserId":"f603419c-c8ee-450c-bd5d-d6a755401767"}'

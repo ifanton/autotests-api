@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIzLjIyNTUxNSIsInVzZXJfaWQiOiI2OTgzM2E5YS0wOGVmLTRhMjQtOGI2NS00NDY5OGM1ODI0MDcifQ.vgnVjJyE-sXYBsH7JP8JRkaUYuPsbqNBvrlu0E4oEl4' \
+  -H 'content-length: 437' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Official discuss western successful field cold.","maxScore":74,"minScore":19,"description":"Work firm wall mean. Congress speech can policy. Fall recent future notice government.\nStory discover best meeting city. Agent matter sort tonight service thing. Score major structure gas gas.","estimatedTime":"9 week(s)","previewFileId":"11935c6b-eabc-4a0e-bb5f-858bf037a9f2","createdByUserId":"69833a9a-08ef-4a24-8b65-44698c582407"}'

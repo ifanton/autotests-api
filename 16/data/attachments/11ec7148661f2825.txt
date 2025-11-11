@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjE5LjU2NzQ1MSIsInVzZXJfaWQiOiIzOTE5YjlkMy1mODk3LTRmODctYmY2YS05NjAwNWFlMjgzNzEifQ.zsdsUbPcDCYaLU6lHJ8V5u3UD802PFIVa3tvSVMT4G4' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We treatment whole century.","maxScore":80,"minScore":21,"description":"Research career account after. Itself control meeting others direction book. Call person explain factor. Might include second resource race low.","estimatedTime":"5 week(s)","previewFileId":"913bdad3-e267-420e-8be5-3b293d59ad56","createdByUserId":"3919b9d3-f897-4f87-bf6a-96005ae28371"}'

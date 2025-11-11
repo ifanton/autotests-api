@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTExVDE2OjA0OjIxLjU4NjAzNSIsInVzZXJfaWQiOiI2NjI5YmM4Ni04YzE0LTQ3YzgtOTE4OS1lNDcyYmExOWI0MzMifQ.afi9ApvfR-rlb2kUsrkKLSBoiU_ripR31Zfqy-ZcJVQ' \
+  -H 'content-length: 306' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Question close its mention whatever society.","courseId":"e9544e27-f4b1-4235-9929-4b2a048e2786","maxScore":97,"minScore":18,"orderIndex":17,"description":"Expert question myself. Memory finally structure pretty to. Alone whole tax family pull common outside parent.","estimatedTime":"10 week(s)"}'

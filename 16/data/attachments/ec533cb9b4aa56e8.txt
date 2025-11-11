@@ -1,0 +1,23 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:30 Make GET request to http://localhost:8000/api/v1/exercises/8dda9fc4-5985-49b2-a3a1-c107458dab7c
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/exercises/8dda9fc4-5985-49b2-a3a1-c107458dab7c
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     EXERCISES_ASSERTIONS:exercises.py:71 Check get exercise response
+INFO     EXERCISES_ASSERTIONS:exercises.py:49 Check exercise
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Question close its mention whatever society.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "course_id" equals to e9544e27-f4b1-4235-9929-4b2a048e2786
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 97
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 18
+INFO     BASE_ASSERTIONS:base.py:37 Check that "order_index" equals to 17
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Expert question myself. Memory finally structure pretty to. Alone whole tax family pull common outside parent.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 10 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema
