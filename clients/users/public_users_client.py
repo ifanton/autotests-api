@@ -2,6 +2,7 @@ import allure
 from httpx import Response
 
 from clients.api_client import APIClient
+from clients.api_coverage import tracker
 from clients.public_http_builder import get_public_http_client
 # CreateUserRequestSchema используется для передачи данных в API, а CreateUserResponseSchema для парсинга ответа
 from clients.users.users_schema import CreateUserRequestSchema, CreateUserResponseSchema
@@ -14,6 +15,7 @@ class PublicUsersClient(APIClient):
     """
 
     @allure.step("Create user")
+    @tracker.track_coverage_httpx(APIRoutes.USERS)
     def create_user_api(self, request: CreateUserRequestSchema) -> Response:
         """
         Метод выполняет создание нового пользователя
@@ -28,7 +30,9 @@ class PublicUsersClient(APIClient):
 
     def create_user(self, request: CreateUserRequestSchema) -> CreateUserResponseSchema:
         response = self.create_user_api(request)
-        return CreateUserResponseSchema.model_validate_json(response.text)  # безопасный способ загрузки JSON-ответа, исключающий ошибки при работе с необработанными данными
+        return CreateUserResponseSchema.model_validate_json(
+            response.text)  # безопасный способ загрузки JSON-ответа, исключающий ошибки при работе с необработанными данными
+
 
 # Добавляем builder для PublicUsersClient
 def get_public_users_client() -> PublicUsersClient:
