@@ -2,6 +2,9 @@ name: API tests
 
 # когда будет запускаться данный workflow
 on:
+  push:
+    branches:
+      - main # Запускать workflow, когда будет сделан push в ветку main
   pull_request:
     branches:
       - main  # Запускать workflow, когда будет сделан pull request в ветку main
@@ -44,6 +47,32 @@ jobs:
       - name: Run API tests with pytest and generate Allure results
         run: |
           pytest -m regression --alluredir=allure-results
+
+      - name: Restore Coverage history  # Восстанавливаем историю покрытия из кеша
+        uses: actions/cache/restore@v4
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+          restore-keys: |
+            coverage-history-
+
+      - name: Generate Coverage report  # Генерируем HTML-отчет и обновляем историю
+        run: |
+          swagger-coverage-tool save-report
+
+      - name: Cache Coverage  history  # Сохраняем историю обратно в кеш
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: coverage-history.json
+          key: coverage-history-${{ github.run_id }}
+
+      - name: Upload Coverage report  # Загружаем HTML-отчет как артефакт
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage.html
 
       - name: Upload 'allure-results' directory
         uses: actions/upload-artifact@v4
