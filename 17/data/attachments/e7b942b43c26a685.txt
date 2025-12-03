@@ -1,0 +1,19 @@
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:30 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:30 Make PATCH request to http://localhost:8000/api/v1/courses/b0b9cbdc-c446-4a20-94c8-a93737e3b413
+INFO     HTTP_CLIENT:event_hooks.py:39 Got response 200 OK from http://localhost:8000/api/v1/courses/b0b9cbdc-c446-4a20-94c8-a93737e3b413
+INFO     BASE_ASSERTIONS:base.py:19 Check that response status code equals to 200
+INFO     COURSES_ASSERTIONS:courses.py:49 Check update course response
+INFO     BASE_ASSERTIONS:base.py:37 Check that "title" equals to Employee pull close.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "max_score" equals to 90
+INFO     BASE_ASSERTIONS:base.py:37 Check that "min_score" equals to 6
+INFO     BASE_ASSERTIONS:base.py:37 Check that "description" equals to Interest record season turn wish. Including hotel article program piece field area.
+Recently the reason relate. People quite several hour establish better book shake. East century picture bad.
+INFO     BASE_ASSERTIONS:base.py:37 Check that "estimated_time" equals to 6 week(s)
+INFO     SCHEMA_ASSERTIONS:schema.py:22 Validate JSON schema

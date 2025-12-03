@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDA4OjAyOjQxLjA3MTM1MiIsInVzZXJfaWQiOiJjMjkwNmQzNS0xMDg1LTQxOTItYWQ1OC01NWRhMDIzODY5ZGMifQ.j6n3JmVkEEZVRr7GKd7W515n0jTmqLNSM_5F_Xg5zSA' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Debate force foot local receive.","maxScore":58,"minScore":6,"description":"Truth skin amount evening like. Improve happy tell could gas. Country memory quite since public real couple share. Nor standard set.","estimatedTime":"8 week(s)","previewFileId":"547da7d0-d561-4e16-bbbc-3ddc82815700","createdByUserId":"c2906d35-1085-4192-ad58-55da023869dc"}'

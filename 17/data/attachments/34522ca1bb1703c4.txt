@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDA4OjAyOjQwLjM5OTA3NCIsInVzZXJfaWQiOiIzNWI1NzBjNi00NTk3LTQ4MmQtOTgwMi05ZWRiNzc1Yjg1OWUifQ.vXwmv_oLjPPhMHyPpUU801__Wl10uSQpayw-GuR_Qdc' \
+  -H 'content-length: 355' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Among thus staff peace statement college.","maxScore":92,"minScore":3,"description":"Ball fall spend leave admit several. Foot indicate create run several fall. Thank in final resource fine manage apply.","estimatedTime":"7 week(s)","previewFileId":"068667eb-d759-4ad6-a93a-cb09cce38d28","createdByUserId":"35b570c6-4597-482d-9802-9edb775b859e"}'

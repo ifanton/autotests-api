@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDA4OjAyOjQxLjc0ODYxMCIsInVzZXJfaWQiOiJmMmY0ZDBkZS04MmM1LTQ2NTUtOGVhZS05N2Y2YzgzMDhmZTcifQ.R0Xs5Ll-OEb_IWL9rLd5Tm8_e668IW6u5NgYq0uHbJQ' \
+  -H 'content-length: 371' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ability beyond night and kitchen.","maxScore":56,"minScore":10,"description":"Risk eat us probably miss Democrat see wonder. Fight message process occur sign animal decade. Service seek partner reach approach small six.","estimatedTime":"1 week(s)","previewFileId":"a136dfda-b896-4df6-9c4a-9d8fae18880e","createdByUserId":"f2f4d0de-82c5-4655-8eae-97f6c8308fe7"}'

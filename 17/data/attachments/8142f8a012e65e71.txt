@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDA4OjAyOjQzLjEwNDk2OCIsInVzZXJfaWQiOiI4MTBkOGJkOC1iNGRmLTQ2NzMtOGJjNi04MzZhYWVhNTg5OWEifQ.myTx8VYxJMYdKGw4Yyd4rMmGYDCoWhXbQOvYoZ9yoe0' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Left act feel he program ten.","courseId":"3563caca-8f7d-4812-81d2-9f798458264f","maxScore":60,"minScore":27,"orderIndex":77,"description":"Serve at front teach quite. Along single face star.\nWorld less today off amount. Outside sound side agent Mr. Knowledge land man discuss go.","estimatedTime":"10 week(s)"}'

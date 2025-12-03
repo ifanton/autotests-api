@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDA4OjAyOjQwLjM5OTA3NCIsInVzZXJfaWQiOiIzNWI1NzBjNi00NTk3LTQ4MmQtOTgwMi05ZWRiNzc1Yjg1OWUifQ.vXwmv_oLjPPhMHyPpUU801__Wl10uSQpayw-GuR_Qdc' \
+  -H 'content-length: 274' \
+  -H 'content-type: application/json' \
+  -d '{"title":"But sing health employee.","courseId":"26f37b73-c82f-48a4-bbba-42c3c00ddb88","maxScore":60,"minScore":4,"orderIndex":53,"description":"Through feeling media. Fact respond together threat hotel. North event middle its century possible.","estimatedTime":"1 week(s)"}'

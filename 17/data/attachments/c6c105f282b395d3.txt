@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDA4OjAyOjQyLjQyOTMzNCIsInVzZXJfaWQiOiJlODg2ODNkZi04ZTRkLTQ2NWQtYjZhMi1kNWUwZDk2ZTU3OTQifQ.yeHHXcr0ZrHlGld2Gpr5_fRp4h9MGmXGdbS4QPs6vUQ' \
+  -H 'content-length: 436' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Many strategy apply throughout deal wait.","maxScore":80,"minScore":3,"description":"Attention bring place return cold son free. Must sound relationship because guy free write same.\nCharge social focus. Anyone daughter degree ago method wife another. Business responsibility another.","estimatedTime":"6 week(s)","previewFileId":"8ff222bd-0e23-4e30-ad16-6ca265fffead","createdByUserId":"e88683df-8e4d-465d-b6a2-d5e0d96e5794"}'

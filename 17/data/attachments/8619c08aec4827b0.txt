@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDA4OjAyOjQzLjEwNDk2OCIsInVzZXJfaWQiOiI4MTBkOGJkOC1iNGRmLTQ2NzMtOGJjNi04MzZhYWVhNTg5OWEifQ.myTx8VYxJMYdKGw4Yyd4rMmGYDCoWhXbQOvYoZ9yoe0' \
+  -H 'content-length: 339' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long green director teach trip loss.","maxScore":88,"minScore":13,"description":"Entire appear opportunity piece medical long. Ever military someone fish. Fight really may employee learn.","estimatedTime":"9 week(s)","previewFileId":"1b447197-b8e1-4b40-b55e-6c1b5f3c46c6","createdByUserId":"810d8bd8-b4df-4673-8bc6-836aaea5899a"}'
